@@ -1,0 +1,63 @@
+aliases:
+  # Blacks, Whites, and Grays
+  # --------------------------------------
+  BLACK: '#000000'
+  WHITE: '#ffffff'
+  GRAY5: '#fbfbfb'
+  GRAY10: '#f6f6f6'
+  GRAY15: '#eeeeee'
+  GRAY25: '#e4e4e4'
+  GRAY50: '#dadada'
+  GRAY75: '#c5c5c5'
+  GRAY100: '#909090'
+  GRAY125: '#5d5d5d'
+  GRAY130: '#282828'
+
+  # Navy
+  # --------------------------------------
+  NAVY5: '#f2f9fa'
+  NAVY10: '#e5f2f5'
+  NAVY15: '#d9edf0'
+  NAVY25: '#bfe0e6'
+  NAVY50: '#7fc0cd'
+  NAVY75: '#40a2b4'
+  NAVY100: '#00829b'
+  NAVY125: '#00687C'
+
+  # Blues
+  # --------------------------------------
+  BLUE25: '#bbe3ef'
+  BLUE50: '#7ccce5'
+  BLUE75: '#3fb7dc'
+  BLUE100: '#00a0d1'
+  BLUE125: '#0080A7'
+
+  # Green
+  # --------------------------------------
+  GREEN25: '#dee6bb'
+  GREEN50: '#c3d17c'
+  GREEN75: '#a9bf3f'
+  GREEN100: '#8daa00'
+  GREEN125: '#718800'
+
+  # Purple
+  # --------------------------------------
+  PURPLE25: '#e6bbcd'
+  PURPLE50: '#d17ca1'
+  PURPLE75: '#bf3f76'
+  PURPLE100: '#aa0049'
+
+  # Orange
+  # --------------------------------------
+  ORANGE25: '#f4e0bc'
+  ORANGE50: '#efc57d'
+  ORANGE75: '#ebad41'
+  ORANGE100: '#e59202'
+
+  # Yellow
+  # --------------------------------------
+  YELLOW100: '#f7e00c'
+
+  # Red
+  # --------------------------------------
+  RED100: '#d73c40'

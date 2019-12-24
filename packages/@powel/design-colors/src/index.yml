@@ -1,0 +1,169 @@
+global:
+  type: color
+  category: background-color
+imports:
+  - ./_aliases.yml
+props:
+  - name: COLOR_BLACK
+    value: '{!BLACK}'
+    meta:
+      friendlyName: Black
+  - name: COLOR_WHITE
+    value: '{!WHITE}'
+    meta:
+      friendlyName: White
+  - name: COLOR_GRAY5
+    value: '{!GRAY5}'
+    meta:
+      friendlyName: Gray 5
+  - name: COLOR_GRAY10
+    value: '{!GRAY10}'
+    meta:
+      friendlyName: Gray 10
+  - name: COLOR_GRAY15
+    value: '{!GRAY15}'
+    meta:
+      friendlyName: Gray 15
+  - name: COLOR_GRAY25
+    value: '{!GRAY25}'
+    meta:
+      friendlyName: Gray 25
+  - name: COLOR_GRAY50
+    value: '{!GRAY50}'
+    meta:
+      friendlyName: Gray 50
+  - name: COLOR_GRAY75
+    value: '{!GRAY75}'
+    meta:
+      friendlyName: Gray 75
+  - name: COLOR_GRAY100
+    value: '{!GRAY100}'
+    meta:
+      friendlyName: Gray 100
+  - name: COLOR_GRAY125
+    value: '{!GRAY125}'
+    meta:
+      friendlyName: Gray 125
+  - name: COLOR_GRAY130
+    value: '{!GRAY130}'
+    meta:
+      friendlyName: Gray 130
+
+  - name: COLOR_NAVY5
+    value: '{!NAVY5}'
+    meta:
+      friendlyName: Navy 5
+  - name: COLOR_NAVY10
+    value: '{!NAVY10}'
+    meta:
+      friendlyName: Navy 10
+  - name: COLOR_NAVY15
+    value: '{!NAVY15}'
+    meta:
+      friendlyName: Navy 15
+  - name: COLOR_NAVY25
+    value: '{!NAVY25}'
+    meta:
+      friendlyName: Navy 25
+  - name: COLOR_NAVY50
+    value: '{!NAVY50}'
+    meta:
+      friendlyName: Navy 50
+  - name: COLOR_NAVY75
+    value: '{!NAVY75}'
+    meta:
+      friendlyName: Navy 75
+  - name: COLOR_NAVY100
+    value: '{!NAVY100}'
+    meta:
+      friendlyName: Navy 100
+  - name: COLOR_NAVY125
+    value: '{!NAVY125}'
+    meta:
+      friendlyName: Navy 125
+
+  - name: COLOR_BLUE25
+    value: '{!BLUE25}'
+    meta:
+      friendlyName: Blue 25
+  - name: COLOR_BLUE50
+    value: '{!BLUE50}'
+    meta:
+      friendlyName: Blue 50
+  - name: COLOR_BLUE75
+    value: '{!BLUE75}'
+    meta:
+      friendlyName: Blue 75
+  - name: COLOR_BLUE100
+    value: '{!BLUE100}'
+    meta:
+      friendlyName: Blue 100
+  - name: COLOR_BLUE125
+    value: '{!BLUE125}'
+    meta:
+      friendlyName: Blue 125
+
+  - name: COLOR_GREEN25
+    value: '{!GREEN25}'
+    meta:
+      friendlyName: Green 25
+  - name: COLOR_GREEN50
+    value: '{!GREEN50}'
+    meta:
+      friendlyName: Green 50
+  - name: COLOR_GREEN75
+    value: '{!GREEN75}'
+    meta:
+      friendlyName: Green 75
+  - name: COLOR_GREEN100
+    value: '{!GREEN100}'
+    meta:
+      friendlyName: Green 100
+  - name: COLOR_GREEN125
+    value: '{!GREEN125}'
+    meta:
+      friendlyName: Green 125
+
+  - name: COLOR_PURPLE25
+    value: '{!PURPLE25}'
+    meta:
+      friendlyName: Purple 25
+  - name: COLOR_PURPLE50
+    value: '{!PURPLE50}'
+    meta:
+      friendlyName: Purple 50
+  - name: COLOR_PURPLE75
+    value: '{!PURPLE75}'
+    meta:
+      friendlyName: Purple 75
+  - name: COLOR_PURPLE100
+    value: '{!PURPLE100}'
+    meta:
+      friendlyName: Purple 100
+
+  - name: COLOR_ORANGE25
+    value: '{!ORANGE25}'
+    meta:
+      friendlyName: Orange 25
+  - name: COLOR_ORANGE50
+    value: '{!ORANGE50}'
+    meta:
+      friendlyName: Orange 50
+  - name: COLOR_ORANGE75
+    value: '{!ORANGE75}'
+    meta:
+      friendlyName: Orange 75
+  - name: COLOR_ORANGE100
+    value: '{!ORANGE100}'
+    meta:
+      friendlyName: Orange 100
+
+  - name: COLOR_YELLOW100
+    value: '{!YELLOW100}'
+    meta:
+      friendlyName: Yellow 100
+
+  - name: COLOR_RED100
+    value: '{!RED100}'
+    meta:
+      friendlyName: Red 100

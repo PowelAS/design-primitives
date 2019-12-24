@@ -1,0 +1,123 @@
+global:
+  type: color
+  category: background-color
+  checkContrast:
+    - WHITE
+    - GRAY125
+    - GRAY130
+    - NAVY125
+
+imports:
+  - ./_aliases.yml
+
+props:
+  - name: FILL_WHITE
+    value: '{!WHITE}'
+    meta:
+      friendlyName: White
+
+  - name: FILL_GRAY5
+    value: '{!GRAY5}'
+    meta:
+      friendlyName: Gray 5
+  - name: FILL_GRAY10
+    value: '{!GRAY10}'
+    meta:
+      friendlyName: Gray 10
+  - name: FILL_GRAY15
+    value: '{!GRAY15}'
+    meta:
+      friendlyName: Gray 15
+  - name: FILL_GRAY25
+    value: '{!GRAY25}'
+    meta:
+      friendlyName: Gray 25
+  - name: FILL_GRAY100
+    value: '{!GRAY100}'
+    meta:
+      friendlyName: Gray 100
+  - name: FILL_GRAY130
+    value: '{!GRAY130}'
+    meta:
+      friendlyName: Gray 130
+
+  - name: FILL_BLUE25
+    value: '{!BLUE25}'
+    meta:
+      friendlyName: Blue 25
+  - name: FILL_BLUE100
+    value: '{!BLUE100}'
+    meta:
+      friendlyName: Blue 100
+  - name: FILL_BLUE125
+    value: '{!BLUE125}'
+    meta:
+      friendlyName: Blue 125
+
+  - name: FILL_NAVY5
+    value: '{!NAVY5}'
+    meta:
+      friendlyName: Navy 5
+  - name: FILL_NAVY10
+    value: '{!NAVY10}'
+    meta:
+      friendlyName: Navy 10
+  - name: FILL_NAVY15
+    value: '{!NAVY15}'
+    meta:
+      friendlyName: Navy 15
+  - name: FILL_NAVY25
+    value: '{!NAVY25}'
+    meta:
+      friendlyName: Navy 25
+  - name: FILL_NAVY100
+    value: '{!NAVY100}'
+    meta:
+      friendlyName: Navy 100
+  - name: FILL_NAVY125
+    value: '{!NAVY125}'
+    meta:
+      friendlyName: Navy 125
+
+  - name: FILL_GREEN25
+    value: '{!GREEN25}'
+    meta:
+      friendlyName: Green 25
+    checkContrast:
+      - WHITE
+      - NAVY125
+  - name: FILL_GREEN100
+    value: '{!GREEN100}'
+    meta:
+      friendlyName: Green 100
+  - name: FILL_GREEN125
+    value: '{!GREEN125}'
+    meta:
+      friendlyName: Green 125
+
+  - name: FILL_PURPLE25
+    value: '{!PURPLE25}'
+    meta:
+      friendlyName: Purple 25
+  - name: FILL_PURPLE100
+    value: '{!PURPLE100}'
+    meta:
+      friendlyName: Purple 100
+
+  - name: FILL_ORANGE25
+    value: '{!ORANGE25}'
+    meta:
+      friendlyName: Orange 25
+  - name: FILL_ORANGE100
+    value: '{!ORANGE100}'
+    meta:
+      friendlyName: Orange 100
+
+  - name: FILL_YELLOW100
+    value: '{!YELLOW100}'
+    meta:
+      friendlyName: Yellow 100
+  - name: FILL_RED100
+    value: '{!RED100}'
+    meta:
+      friendlyName: Red 100

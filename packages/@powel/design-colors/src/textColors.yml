@@ -1,0 +1,68 @@
+global:
+  type: color
+  category: text-color
+imports:
+  - ./_aliases.yml
+
+props:
+  - name: WHITE
+    value: '{!WHITE}'
+    meta:
+      friendlyName: White
+
+  - name: GRAY100
+    value: '{!GRAY100}'
+    meta:
+      friendlyName: Gray 100
+  - name: GRAY125
+    value: '{!GRAY125}'
+    meta:
+      friendlyName: Gray 125
+  - name: GRAY130
+    value: '{!GRAY130}'
+    meta:
+      friendlyName: Gray 130
+
+  - name: BLUE100
+    value: '{!BLUE100}'
+    meta:
+      friendlyName: Blue 100
+  - name: BLUE125
+    value: '{!BLUE125}'
+    meta:
+      friendlyName: Blue 125
+
+  - name: NAVY50
+    value: '{!NAVY50}'
+    meta:
+      friendlyName: Navy 50
+  - name: NAVY75
+    value: '{!NAVY75}'
+    meta:
+      friendlyName: Navy 75
+  - name: NAVY100
+    value: '{!NAVY100}'
+    meta:
+      friendlyName: Navy 100
+  - name: NAVY125
+    value: '{!NAVY125}'
+    meta:
+      friendlyName: Navy 125
+
+  - name: GREEN100
+    value: '{!GREEN100}'
+    meta:
+      friendlyName: Green 100
+  - name: ORANGE100
+    value: '{!ORANGE100}'
+    meta:
+      friendlyName: Orange 100
+
+  - name: YELLOW100
+    value: '{!YELLOW100}'
+    meta:
+      friendlyName: Yellow 100
+  - name: RED100
+    value: '{!RED100}'
+    meta:
+      friendlyName: Red 100

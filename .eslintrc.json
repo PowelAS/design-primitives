@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "extends": ["powel", "powel/babel", "powel/import", "powel/typescript"],
+  "settings": {
+    "import/resolver": {
+      "node": {}
+    }
+  }
+}

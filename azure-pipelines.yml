@@ -25,7 +25,7 @@ jobs:
           npm run deps:check
         displayName: 'Install and check NPM deps'
       - script: |
-          npm run typecheck
+          # npm run typecheck
           npm run lint
           npm test
         displayName: 'Check code and run tests'

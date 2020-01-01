@@ -14,7 +14,7 @@
     "deps:check": "repo-cooker --check-dependencies",
     "deps:fix": "repo-cooker --fix-dependencies",
     "lint": "eslint . --cache --fix --ext \".js,.ts\" --ignore-path .prettierignore",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:coverage": "npm test -- --coverage",
     "test:ci": "cross-env CI=true npm test",
     "typecheck": "tsc",

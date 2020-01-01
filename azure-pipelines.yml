@@ -45,12 +45,12 @@ jobs:
       - script: |
           set -e
           sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-          sudo apt update
-          sudo apt install -y libstdc++-4.9-dev
+          sudo apt-get update
+          sudo apt-get install -y libstdc++-4.9-dev
         displayName: 'Install libstdc++ needed for nodegit'
       - script: |
           npm ci --prefer-offline --no-audit
-          npm install --no-save nodegit@0.24.3
+          npm install --no-save nodegit@0.26.3
         displayName: 'Install NPM deps'
       - script: |
           git config user.email "no-reply@azure.com"

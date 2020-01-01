@@ -55,7 +55,7 @@ jobs:
       - script: |
           git config user.email "no-reply@azure.com"
           git config user.name "Azure DevOps Pipeline"
-          git remote set-url origin https://fmal:$(GH_TOKEN)@github.com/fmal/monorepo;
+          git remote set-url origin https://x-access-token:$(GH_TOKEN)@github.com/PowelAS/design-primitives;
           echo "//registry.npmjs.org/:_authToken=$(NPM_TOKEN)" >> .npmrc
         displayName: 'Set up git user and NPM token'
       - script: npm run release -- --no-parallel --print-release

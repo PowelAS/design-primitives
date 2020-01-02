@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/powelas/design-primitives.git",
+    "url": "https://github.com/PowelAS/design-primitives.git",
     "directory": "packages/@powel/design-colors"
   },
   "publishConfig": {

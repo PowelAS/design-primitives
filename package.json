@@ -6,6 +6,10 @@
   "engines": {
     "node": ">=8.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PowelAS/design-primitives.git"
+  },
   "scripts": {
     "link": "repo-cooker --link",
     "postinstall": "npm run link",

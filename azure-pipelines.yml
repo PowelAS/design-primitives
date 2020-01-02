@@ -39,7 +39,6 @@ jobs:
       vmImage: 'Ubuntu-16.04'
     steps:
       - checkout: self
-        persistCredentials: true
         clean: true
       # By default Azure Pipelines do checkouts of specific commits (detached HEAD)
       # and we need to be at master to be able to push version bump changes
@@ -50,9 +49,9 @@ jobs:
       - script: git checkout $(BRANCH)
         displayName: 'Checkout branch'
       - script: |
-          git config user.email "no-reply@azure.com"
-          git config user.name "Azure DevOps Pipeline"
-          git remote set-url origin https://x-access-token:$(GH_TOKEN)@github.com/PowelAS/design-primitives
+          git config --global user.email "no-reply@azure.com"
+          git config --global user.name "Azure DevOps Pipeline"
+          git remote set-url origin https://$(GH_TOKEN)@github.com/PowelAS/design-primitives.git
         displayName: 'Configure git'
       - task: NodeTool@0
         inputs:
@@ -72,3 +71,5 @@ jobs:
         displayName: 'Install NPM deps'
       - script: npm run release -- --no-parallel --print-release
         displayName: 'Publish all packages to NPM'
+        env:
+          GH_TOKEN: $(GH_TOKEN)

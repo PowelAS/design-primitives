@@ -36,6 +36,10 @@ props:
     value: '{!GRAY100}'
     meta:
       friendlyName: Gray 100
+  - name: GRAY125
+    value: '{!GRAY125}'
+    meta:
+      friendlyName: Gray 125
   - name: GRAY130
     value: '{!GRAY130}'
     meta:

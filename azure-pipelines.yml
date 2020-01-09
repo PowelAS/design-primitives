@@ -42,11 +42,7 @@ jobs:
         clean: true
       # By default Azure Pipelines do checkouts of specific commits (detached HEAD)
       # and we need to be at master to be able to push version bump changes
-      - script: |
-          BRANCH=`echo $(Build.SourceBranch) | sed 's/refs\/heads\///'`
-          echo "##vso[task.setvariable variable=BRANCH]$BRANCH"
-        displayName: 'Extract the branch name'
-      - script: git checkout $(BRANCH)
+      - script: git checkout $(Build.SourceBranchName)
         displayName: 'Checkout branch'
       - script: |
           git config --global user.email "no-reply@azure.com"

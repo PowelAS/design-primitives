@@ -25,7 +25,7 @@
     "_theo": "theo --setup theo.setup.js --transform web --dest ../../node_modules/@powel/design-colors/dist",
     "prebuild": "npm run clean",
     "postbuild": "cpy package.json ../../node_modules/@powel/design-colors",
-    "build:tokens": "npm run _theo -s -- --format scss,json,common.js,module.js,custom-properties.css,html src/index.yml",
+    "build:tokens": "npm run _theo -s -- --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css,html src/index.yml",
     "build:backgroundFills": "npm run _theo -s -- --format withTextColors.json,html src/backgroundFills.yml",
     "build:textColors": "npm run _theo -s -- --format json,html src/textColors.yml",
     "build": "run-p build:*",

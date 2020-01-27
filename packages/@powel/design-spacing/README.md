@@ -2,6 +2,8 @@
 
 Spacing primitives/tokens to be used across Powel's products
 
+![Screenshot](https://user-images.githubusercontent.com/927591/73183450-16c2a980-411b-11ea-8a15-e12d5773bce7.png)
+
 ## Installation
 
 ```sh

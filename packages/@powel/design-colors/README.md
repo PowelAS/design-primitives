@@ -2,6 +2,8 @@
 
 Color primitives/tokens to be used across Powel's products
 
+![Screenshot](https://user-images.githubusercontent.com/927591/73183455-19bd9a00-411b-11ea-82c2-c5d354dc9563.png)
+
 ## Installation
 
 ```sh

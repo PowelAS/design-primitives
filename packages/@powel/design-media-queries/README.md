@@ -2,6 +2,8 @@
 
 Media query primitives/tokens to be used across Powel's products
 
+![Screenshot](https://user-images.githubusercontent.com/927591/73183763-a405fe00-411b-11ea-8813-6ebf0c576e4c.png)
+
 ## Installation
 
 ```sh

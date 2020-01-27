@@ -26,8 +26,8 @@
     "prebuild": "npm run clean",
     "postbuild": "cpy package.json ../../node_modules/@powel/design-media-queries",
     "build:mediaQueries": "npm run _theo -s -- --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css,html src/index.yml",
-    "build:mediaQueriesMap": "npm run _theo -s -- --format map.scss src/mediaQueries.yml",
-    "build:mediaQueriesSync": "npm run _theo -s -- --format map.scss src/mediaQueriesSync.yml",
+    "build:mediaQueriesMap": "npm run _theo -s -- --format map.scss,common.js src/mediaQueries.yml",
+    "build:mediaQueriesSyncMap": "npm run _theo -s -- --format map.scss,common.js src/mediaQueriesSync.yml",
     "build": "run-p build:*",
     "prepublishOnly": "rimraf dist && cpy \"@powel/design-media-queries/dist/**/*\" .. --cwd=../../node_modules --parents"
   },

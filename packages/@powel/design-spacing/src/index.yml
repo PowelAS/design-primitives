@@ -1,0 +1,18 @@
+global:
+  type: web
+  category: padding
+imports:
+  - ./_aliases.yml
+props:
+  - name: SPACING_XS
+    value: '{!SPACING_XS}'
+  - name: SPACING_S
+    value: '{!SPACING_S}'
+  - name: SPACING_M
+    value: '{!SPACING_M}'
+  - name: SPACING_L
+    value: '{!SPACING_L}'
+  - name: SPACING_XL
+    value: '{!SPACING_XL}'
+  - name: SPACING_XXL
+    value: '{!SPACING_XXL}'

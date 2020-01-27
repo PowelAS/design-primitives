@@ -1,0 +1,38 @@
+{
+  "name": "@powel/design-spacing",
+  "version": "0.0.0",
+  "description": "Spacing primitives for Powel design primitives",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PowelAS/design-primitives.git",
+    "directory": "packages/@powel/design-spacing"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.common.js",
+  "module": "dist/index.module.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "npm test -- --coverage",
+    "lint": "eslint . --cache --fix --ext \".js,.ts\" --ignore-path ../../../.prettierignore",
+    "clean": "rimraf dist coverage ../../node_modules/@powel/design-spacing",
+    "prebuild": "npm run clean",
+    "postbuild": "cpy package.json ../../node_modules/@powel/design-spacing",
+    "build": "theo --transform web --dest ../../node_modules/@powel/design-spacing/dist --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css,html src/index.yml",
+    "prepublishOnly": "rimraf dist && cpy \"@powel/design-spacing/dist/**/*\" .. --cwd=../../node_modules --parents"
+  },
+  "devDependencies": {
+    "cpy-cli": "3.0.0",
+    "eslint": "6.8.0",
+    "jest": "24.9.0",
+    "rimraf": "3.0.0",
+    "theo": "8.1.4",
+    "typescript": "3.7.4"
+  }
+}

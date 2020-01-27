@@ -1,0 +1,14 @@
+global:
+  type: string
+  category: media-query
+imports:
+  - ./_aliases.yml
+props:
+  - name: SMALL
+    value: '{!MQ_SMALL_ONLY}'
+  - name: MEDIUM
+    value: '{!MQ_MEDIUM_AND_UP}'
+  - name: LARGE
+    value: '{!MQ_LARGE_AND_UP}'
+  - name: XLARGE
+    value: '{!MQ_XLARGE_AND_UP}'

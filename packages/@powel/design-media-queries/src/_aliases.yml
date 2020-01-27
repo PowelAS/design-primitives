@@ -1,0 +1,17 @@
+aliases:
+  BREAKPOINT_MEDIUM: '31.25em'
+  BREAKPOINT_BELOW_MEDIUM: '31.1875em'
+  BREAKPOINT_LARGE: '48.75em'
+  BREAKPOINT_BELOW_LARGE: '48.6875em'
+  BREAKPOINT_XLARGE: '87.5em'
+  BREAKPOINT_BELOW_XLARGE: '87.4375em'
+
+  # Media Queries
+  MQ_SMALL_ONLY: 'screen and ( max-width: {!BREAKPOINT_BELOW_MEDIUM} )'
+  MQ_MEDIUM_AND_UP: 'screen and ( min-width: {!BREAKPOINT_MEDIUM} )'
+  MQ_MEDIUM_ONLY: 'screen and ( min-width: {!BREAKPOINT_MEDIUM} ) and ( max-width: {!BREAKPOINT_LARGE} )'
+  MQ_MEDIUM_AND_BELOW: 'screen and ( max-width: {!BREAKPOINT_BELOW_LARGE} )'
+  MQ_ZERO_TO_LARGE: 'screen and ( min-width: 0 ) and ( max-width: {!BREAKPOINT_BELOW_LARGE} )'
+  MQ_LARGE_AND_UP: 'screen and ( min-width: {!BREAKPOINT_LARGE} )'
+  MQ_LARGE_AND_BELOW: 'screen and ( max-width: {!BREAKPOINT_BELOW_XLARGE} )'
+  MQ_XLARGE_AND_UP: 'screen and ( min-width: {!BREAKPOINT_XLARGE} )'

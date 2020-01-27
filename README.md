@@ -7,6 +7,8 @@ Global design primitives/tokens to be used across Powel's products
 ## Packages
 
 - [design-colors](https://github.com/PowelAS/design-primitives/tree/master/packages/%40powel/design-colors)
+- [design-spacing](https://github.com/PowelAS/design-primitives/tree/master/packages/%40powel/design-spacing)
+- [design-media-queries](https://github.com/PowelAS/design-primitives/tree/master/packages/%40powel/design-media-queries)
 
 ## Release process
 

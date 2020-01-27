@@ -34,7 +34,7 @@ Sass variables and map keys are formatted in [kebab-case](https://en.wikipedia.o
 // Using variables
 @import '~@powel/design-spacing/dist/index';
 
-a {
-  color: $spacing-xs;
+div {
+  padding: $spacing-xs;
 }
 ```

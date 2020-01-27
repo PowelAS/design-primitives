@@ -1,6 +1,6 @@
 global:
   type: web
-  category: padding
+  category: spacing
 imports:
   - ./_aliases.yml
 props:

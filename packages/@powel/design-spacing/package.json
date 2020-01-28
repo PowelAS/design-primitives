@@ -22,15 +22,19 @@
     "test:coverage": "npm test -- --coverage",
     "lint": "eslint . --cache --fix --ext \".js,.ts\" --ignore-path ../../../.prettierignore",
     "clean": "rimraf dist coverage ../../node_modules/@powel/design-spacing",
+    "_theo": "theo --transform web --dest ../../node_modules/@powel/design-spacing/dist",
     "prebuild": "npm run clean",
     "postbuild": "cpy package.json ../../node_modules/@powel/design-spacing",
-    "build": "theo --transform web --dest ../../node_modules/@powel/design-spacing/dist --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css,html src/index.yml",
+    "build:tokens": "npm run _theo -s -- --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css,html src/index.yml",
+    "build:tokensMap": "npm run _theo -s -- --format map.scss src/spacing.yml",
+    "build": "run-p build:*",
     "prepublishOnly": "rimraf dist && cpy \"@powel/design-spacing/dist/**/*\" .. --cwd=../../node_modules --parents"
   },
   "devDependencies": {
     "cpy-cli": "3.0.0",
     "eslint": "6.8.0",
     "jest": "24.9.0",
+    "npm-run-all": "4.1.5",
     "rimraf": "3.0.0",
     "theo": "8.1.4",
     "typescript": "3.7.4"

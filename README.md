@@ -2,7 +2,7 @@
 
 [![Build Status](https://dev.azure.com/powelcomponentregistry/powelcomponentregistry/_apis/build/status/PowelAS.design-primitives?branchName=master)](https://dev.azure.com/powelcomponentregistry/powelcomponentregistry/_build/latest?definitionId=3&branchName=master)
 
-Global design primitives/tokens to be used across Powel's products
+Design primitives/tokens repository is the central location to store shared design attributes such as colors, spacing, fonts, media queries etc. These attributes can then be transformed and formatted to meet the needs of different projects, teams and platforms.
 
 ## Packages
 

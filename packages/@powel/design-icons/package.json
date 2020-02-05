@@ -1,0 +1,46 @@
+{
+  "name": "@powel/design-icons",
+  "version": "0.0.0",
+  "description": "Icons for Powel design primitives",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PowelAS/design-primitives.git",
+    "directory": "packages/@powel/design-icons"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.common.js",
+  "module": "dist/index.module.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "npm test -- --coverage",
+    "lint": "eslint . --cache --fix --ext \".js,.ts\" --ignore-path ../../../.prettierignore",
+    "clean": "rimraf dist coverage ../../node_modules/@powel/design-icons",
+    "prebuild": "npm run clean",
+    "postbuild": "cpy package.json ../../node_modules/@powel/design-icons",
+    "build:icons": "node ./build",
+    "build:tokens": "theo --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css --dest ../../node_modules/@powel/design-icons/dist src/index.yml",
+    "build": "run-s build:*",
+    "prepublishOnly": "rimraf dist && cpy \"@powel/design-icons/dist/**/*\" .. --cwd=../../node_modules --parents"
+  },
+  "devDependencies": {
+    "constant-case": "3.0.3",
+    "cpy-cli": "3.0.0",
+    "eslint": "6.8.0",
+    "fs-extra": "8.1.0",
+    "jest": "24.9.0",
+    "node-yaml": "4.0.1",
+    "npm-run-all": "4.1.5",
+    "rimraf": "3.0.0",
+    "svgo": "1.3.2",
+    "theo": "8.1.4",
+    "typescript": "3.7.4",
+    "xml2js": "0.4.23"
+  }
+}

@@ -2,7 +2,7 @@
 
 const xml2js = require('xml2js');
 
-const { viewboxSize } = require('./config');
+const { viewboxSize, defaultAttrs } = require('./config');
 
 module.exports = function processIcon({ icon, fileName, id }) {
   const innerContent = icon.svg;
@@ -17,6 +17,10 @@ module.exports = function processIcon({ icon, fileName, id }) {
     };
   }
 
+  Object.keys(defaultAttrs).forEach(key => {
+    innerContent.$[key] = defaultAttrs[key];
+  });
+
   const builder = new xml2js.Builder({
     renderOpts: {
       pretty: false
@@ -26,5 +30,23 @@ module.exports = function processIcon({ icon, fileName, id }) {
 
   const svg = builder.buildObject(icon);
 
-  return { ...result, svg };
+  const symbol = toSvgSymbol(id, innerContent);
+  const symbolSvg = builder.buildObject(symbol);
+
+  return { ...result, svg, symbolSvg };
 };
+
+function toSvgSymbol(id, contents) {
+  const viewBox = [0, 0, viewboxSize, viewboxSize].join(' ');
+  const { $, ...tags } = contents;
+
+  return {
+    symbol: {
+      $: {
+        id,
+        viewBox
+      },
+      ...tags
+    }
+  };
+}

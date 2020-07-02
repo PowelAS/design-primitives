@@ -4,7 +4,7 @@
   "description": "Global design primitives/tokens to be used across Powel's products",
   "private": true,
   "engines": {
-    "node": ">=8.5"
+    "node": ">=10"
   },
   "repository": {
     "type": "git",

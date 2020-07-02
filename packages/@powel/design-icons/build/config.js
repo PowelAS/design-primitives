@@ -2,8 +2,18 @@ const path = require('path');
 
 module.exports = {
   src: path.resolve(__dirname, '../src'),
-  out: path.resolve(__dirname, '../src'),
-  viewboxSize: 560,
+  out: path.resolve(
+    __dirname,
+    '../../../node_modules/@powel/design-icons/dist'
+  ),
+  viewboxSize: 24,
+  defaultAttrs: {
+    fill: 'none',
+    stroke: 'currentColor',
+    'stroke-width': 2,
+    'stroke-linecap': 'round',
+    'stroke-linejoin': 'round'
+  },
   svgo: {
     plugins: [
       {
@@ -109,7 +119,9 @@ module.exports = {
         removeDimensions: true
       },
       {
-        removeAttrs: false
+        removeAttrs: {
+          attrs: '(fill|stroke.*)'
+        }
       }
     ]
   }

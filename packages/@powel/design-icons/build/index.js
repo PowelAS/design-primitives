@@ -3,18 +3,22 @@
 const getIconFileList = require('./getIconFileList');
 const getIconData = require('./getIconData');
 const processIcon = require('./processIcon');
-const writeToken = require('./writeToken');
+const checkErrors = require('./checkErrors');
+const writeSprite = require('./writeSprite');
+const writeTokens = require('./writeTokens');
 
 const map = f => xs => xs.map(f);
-const all = Promise.all.bind(Promise);
+const awaitAll = Promise.all.bind(Promise);
+const parallel = fs => xs => Promise.all(fs.map(f => f(xs)));
 
 getIconFileList()
-  .then(all)
+  .then(awaitAll)
   .then(map(getIconData))
-  .then(all)
+  .then(awaitAll)
   .then(map(processIcon))
-  .then(all)
-  .then(writeToken)
+  .then(awaitAll)
+  .then(checkErrors)
+  .then(parallel([writeTokens, writeSprite]))
   .then(() => {
     console.log('icons generated successfully');
     process.exit(0);

@@ -2,6 +2,6 @@
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>icon/chevronDoubleUp</title>
     <g id="icon/chevronDoubleUp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M7,11 L12,6 L17,11 M17,18 L12,13 L7,18" id="Shape" stroke="#000000" stroke-width="2"></path>
+        <path d="M6,10.6666667 L12,4 L18,10.6666667 M18,20 L12,13.3333333 L6,20" id="Shape" stroke="#000000" stroke-width="2"></path>
     </g>
 </svg>

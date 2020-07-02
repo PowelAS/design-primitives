@@ -1,3 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560">
-    <path d="M387.52 44.8c12.32 0 24.64 4.48 34.72 13.44 19.04 17.92 19.04 48.16 0 66.082L262.078 280l160.16 154.56c19.043 17.92 19.04 48.16 0 66.08-19.04 17.92-49.277 17.92-68.316 0L124.32 280 352.8 58.238c8.962-8.957 22.4-13.437 34.72-13.437z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>chevronLeft</title>
+    <g id="chevronLeft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <polyline id="Path" stroke="#000000" stroke-width="2" points="15 18 9 12 15 6"></polyline>
+    </g>
 </svg>

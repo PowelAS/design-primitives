@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cloud</title>
+    <g id="cloud" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18.0014381,10.0009874 L16.7418004,10.0009874 C15.7025639,5.97488823 11.7531505,3.41639708 7.65522289,4.11456168 C3.55729528,4.81272628 0.677278616,8.53474853 1.02905025,12.6779712 C1.38082187,16.8211938 4.84708601,20.0040884 9.00402655,20.0009896 L18.0014381,20.0009896 C20.7620676,20.0009896 23,17.7624111 23,15.0009874 C23,12.2395636 20.7620676,10.0009874 18.0014381,10.0009874 L18.0014381,10.0009874 Z" id="Path" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>drag-and-drop</title>
+    <g id="drag-and-drop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5,15.5 L19,15.5 M19,9.5 L5,9.5" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

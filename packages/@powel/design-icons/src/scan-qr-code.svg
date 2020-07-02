@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>scan-qr-code</title>
+    <g id="scan-qr-code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7.55555556,2 L4.22222222,2 C2.99492278,2 2,2.99492278 2,4.22222222 L2,7.55555556 M22,7.55555556 L22,4.22222222 C22,2.99492278 21.0050772,2 19.7777778,2 L16.4444444,2 M16.4444444,22 L19.7777778,22 C21.0050772,22 22,21.0050772 22,19.7777778 L22,16.4444444 M2,16.4444444 L2,19.7777778 C2,21.0050772 2.99492278,22 4.22222222,22 L7.55555556,22 M6,18 L10,18 L10,14 L6,14 M10,18 L6,18 L6,14 L10,14 M6,10 L10,10 L10,6 L6,6 M10,10 L6,10 L6,6 L10,6 M14,6 L18,6 L18,10 L14,10 M18,6 L14,6 L14,10 L18,10 M14,14 L14,14 M14,18 L14,18 M18,14 L18,14 M18,18 L18,18 M16,16 L16,16" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

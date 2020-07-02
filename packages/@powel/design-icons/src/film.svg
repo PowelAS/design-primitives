@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>film</title>
+    <g id="film" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7,17 L2,17 L2,7 L7,7 M17,2 L17,22 L7,22 L7,2 L4.18,2 L19.82,2 C21.0239808,2 22,2.97601925 22,4.18 L22,19.82 C22,21.0239808 21.0239808,22 19.82,22 L4.18,22 C2.97601925,22 2,21.0239808 2,19.82 M7,2 L7,22 L17,22 L17,2 L19.82,2 L4.18,2 C2.97601925,2 2,2.97601925 2,4.18 L2,19.82 C2,21.0239808 2.97601925,22 4.18,22 L19.82,22 C21.0239808,22 22,21.0239808 22,19.82 M2,12 L22,12 L22,17 L17,17 L17,7 L22,7" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

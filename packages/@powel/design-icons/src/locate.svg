@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>locate</title>
+    <g id="locate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12,22 L12,18 M22,12 L18,12 M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 L6,12 M12,22 C6.4771525,22 2,17.5228475 2,12 M12,6 L12,2" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

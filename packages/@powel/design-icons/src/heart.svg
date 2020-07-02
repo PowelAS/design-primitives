@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>heart</title>
+    <g id="heart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.31802,5.31802 C2.56066,7.07538 2.56066,9.9246 4.31802,11.682 L12.0001,19.364 L19.682,11.682 C21.4393,9.9246 21.4393,7.07538 19.682,5.31802 C17.9246,3.56066 15.0754,3.56066 13.318,5.31802 L12.0001,6.63609 L10.682,5.31802 C8.92462,3.56066 6.07538,3.56066 4.31802,5.31802 Z" id="Path" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

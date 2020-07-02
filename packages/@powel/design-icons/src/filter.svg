@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M224 560V302.4L0 0h560L325 302.4v212.8L224 560z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/filter</title>
+    <g id="icon/filter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <polygon id="Path" stroke="#000000" stroke-width="2" points="22 3 2 3 10 12.46 10 19 14 21 14 12.46"></polygon>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bell</title>
+    <g id="bell" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18,8 C18,15 21,17 21,17 L3,17 C3,17 6,15 6,8 C6,4.6862915 8.6862915,2 12,2 C15.3137085,2 18,4.6862915 18,8 M13.73,21 C13.3722022,21.6168043 12.7130686,21.9964563 12,21.9964563 C11.2869314,21.9964563 10.6277978,21.6168043 10.27,21" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

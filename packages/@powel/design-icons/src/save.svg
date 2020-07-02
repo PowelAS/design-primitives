@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M300 0h80v140h-80z"/><path d="M480 0h-61v180H139V0H40C17.9 0 0 17.9 0 40v480c0 22.1 17.9 40 40 40h480c22.1 0 40-17.9 40-40V100L480 0zm0 480H80v-40h400v40zm0-80H80v-40h400v40zm0-80H80v-40h400v40z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>save</title>
+    <g id="save" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7,3 L7,8 L15,8 M21,19 L21,8 L16,3 L5,3 C3.8954305,3 3,3.8954305 3,5 L3,19 C3,20.1045695 3.8954305,21 5,21 L19,21 L17,21 L17,13 L7,13 L7,21 M21,9 L21,19 C21,20.1045695 20.1045695,21 19,21 L8,21" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>inbox</title>
+    <g id="inbox" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22,12 L16,12 L14,15 L10,15 L8,12 L2,12 M2,12 L2,18 C2,19.1045695 2.8954305,20 4,20 L20,20 C21.1045695,20 22,19.1045695 22,18 L22,12 L18.55,5.11 C18.21227,4.43034232 17.518944,4.00040273 16.76,4 L7.24,4 M22,12 L22,18 C22,19.1045695 21.1045695,20 20,20 L4,20 C2.8954305,20 2,19.1045695 2,18 L2,12 L5.45,5.11 C5.78773001,4.43034232 6.48105603,4.00040273 7.24,4 L16.76,4" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

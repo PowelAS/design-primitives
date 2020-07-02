@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dollar</title>
+    <g id="dollar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12,23 L12,1 M17,5 L9.5,5 C7.56700338,5 6,6.56700338 6,8.5 C6,10.4329966 7.56700338,12 9.5,12 L14.5,12 C16.4329966,12 18,13.5670034 18,15.5 C18,17.4329966 16.4329966,19 14.5,19 L6,19" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M0 20h560v120H0V20zM0 220h560v120H0V220zM0 420h560v120H0V420z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>menu</title>
+    <g id="menu" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3,18 L21,18 M21,12 L3,12 M3,6 L21,6" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

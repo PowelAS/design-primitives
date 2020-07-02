@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560">
-    <path d="M45.922 297.922c0-12.32 4.476-24.64 13.437-34.723 17.92-19.04 48.16-19.04 66.08 0L280 423.36 434.56 263.2c17.92-19.04 48.16-19.04 66.08 0 17.92 19.04 17.92 49.28 0 68.32L280 560 59.36 331.52c-8.962-8.96-13.438-21.282-13.438-33.598z"/>
-    <path d="M45.922 49.28c0-12.32 4.476-24.64 13.437-34.72 17.92-19.04 48.16-19.04 66.08 0L280 174.72 434.56 15.68c17.92-19.04 48.16-19.04 66.08 0s17.92 49.28 0 68.32L280 311.36 59.36 84C50.397 73.92 45.92 61.6 45.92 49.28z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/chevronDoubleDown</title>
+    <g id="icon/chevronDoubleDown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M17,13 L12,18 L7,13 M7,6 L12,11 L17,6" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
 </svg>

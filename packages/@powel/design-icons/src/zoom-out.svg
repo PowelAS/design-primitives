@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M548.3 491.7l-147-147C425.7 309.2 440 266.3 440 220 440 98.5 341.5 0 220 0S0 98.5 0 220s98.5 220 220 220c46.3 0 89.2-14.3 124.7-38.7l147 147c7.8 7.8 18 11.7 28.3 11.7s20.5-3.9 28.3-11.7c15.6-15.6 15.6-41 0-56.6zM220 360c-37.4 0-72.6-14.6-99-41-26.4-26.4-41-61.6-41-99s14.6-72.6 41-99c26.4-26.4 61.6-41 99-41s72.6 14.6 99 41c26.4 26.4 41 61.6 41 99s-14.6 72.6-41 99c-26.4 26.4-61.6 41-99 41zM320 200H120v40h200v-40z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>zoomOut</title>
+    <g id="zoomOut" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21,21 L16.65,16.65 M11,19 C15.418278,19 19,15.418278 19,11 C19,6.581722 15.418278,3 11,3 C6.581722,3 3,6.581722 3,11 M11,19 C6.581722,19 3,15.418278 3,11 C3,6.581722 6.581722,3 11,3 C15.418278,3 19,6.581722 19,11 M8,11 L14,11" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

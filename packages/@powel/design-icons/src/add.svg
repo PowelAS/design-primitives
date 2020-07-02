@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M526.4 246.4H313.6V33.6C313.6 14.6 299 0 280 0s-33.6 14.6-33.6 33.6v212.8H33.6C14.6 246.4 0 261 0 280s14.6 33.6 33.6 33.6h212.8v212.8c0 19 14.6 33.6 33.6 33.6s33.6-14.6 33.6-33.6V313.6h212.8c19 0 33.6-14.6 33.6-33.6s-14.6-33.6-33.6-33.6z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/add</title>
+    <g id="icon/add" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12,19 L12,5 M5,12 L19,12" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

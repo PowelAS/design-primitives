@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560">
-    <path d="M262.078 45.922c12.32 0 24.64 4.48 34.72 13.44 19.04 17.92 19.04 48.16 0 66.08L136.64 280 296.8 434.56c19.04 17.92 19.04 48.16 0 66.08-19.038 17.92-49.28 17.92-68.32 0L0 280 228.48 59.36c8.96-8.962 21.282-13.438 33.598-13.438z"/>
-    <path d="M510.72 45.922c12.32 0 24.64 4.48 34.72 13.44 19.04 17.92 19.04 48.16 0 66.08L385.28 280l160.16 154.56c19.04 17.92 19.04 48.16 0 66.08-19.042 17.92-49.28 17.92-68.32 0L248.64 280 476 59.36c10.078-8.962 22.398-13.438 34.72-13.438z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>chevronDoubleLeft</title>
+    <g id="chevronDoubleLeft" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M11,7 L6,12 L11,17 M18,17 L13,12 L18,7" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
 </svg>

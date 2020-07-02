@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M200 400h360v80H200zM200 240h280v80H200zM200 80h200v80H200zM154.1 419.7c-7.8-7.7-20.5-7.7-28.3 0L100 445V60.2C100 49 91 40 80 40s-20 9-20 20.2V445l-25.9-25.3c-7.8-7.7-20.5-7.7-28.3 0s-7.8 20.1 0 27.7L80 520l74.1-72.6c7.9-7.7 7.9-20.1 0-27.7z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sortAsc</title>
+    <g id="sortAsc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18,8 L18,21 L13,16 L18,21 L23,16 M17,3.5 L1,3.5 M1,8 L12,8 M9,12.5 L1,12.5" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

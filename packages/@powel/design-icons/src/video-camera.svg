@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M532.8 149.6L403 220v-60c0-22.1-17.9-40-40-40H40c-22.1 0-40 17.9-40 40v240c0 22.1 17.9 40 40 40h323c22.1 0 40-17.9 40-40v-60l129.9 68.6c13.1 5 27.1-4.7 27.1-18.7V168.2c0-14-14.1-23.7-27.2-18.6zM100 380.3c-22.1 0-40-18-40-40.2S77.9 300 100 300s40 18 40 40.2-17.9 40.1-40 40.1z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>videoCamera</title>
+    <g id="videoCamera" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M23,7 L23,17 L16,12 L23,7 M3,5 L14,5 C15.1045695,5 16,5.8954305 16,7 L16,17 C16,18.1045695 15.1045695,19 14,19 L3,19 C1.8954305,19 1,18.1045695 1,17 M14,5 L3,5 C1.8954305,5 1,5.8954305 1,7 L1,17 C1,18.1045695 1.8954305,19 3,19 L14,19 C15.1045695,19 16,18.1045695 16,17" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

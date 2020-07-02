@@ -1,3 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560">
-    <path d="M44.8 172.48c0-12.32 4.48-24.64 13.438-34.718 17.922-19.043 48.16-19.043 66.08 0L280 297.922l154.56-160.16c17.92-19.043 48.16-19.043 66.08 0 17.92 19.04 17.92 49.28 0 68.316L280 435.68 58.24 207.2C49.28 198.24 44.8 184.8 44.8 172.48z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/chevronDown</title>
+    <g id="icon/chevronDown" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <polyline id="Path" stroke="#000000" stroke-width="2" points="6 9 12 15 18 9"></polyline>
+    </g>
 </svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bar-chart-2</title>
+    <g id="bar-chart-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M6,20 L6,16 M12,10 L12,20 M18,20 L18,4" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

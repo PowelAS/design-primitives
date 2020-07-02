@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>unlock</title>
+    <g id="unlock" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3,20.000531 C3,21.1048072 3.8954305,22 5,22 L19,22 C20.1045695,22 21,21.1048072 21,20.000531 L21,13.0023893 C21,11.898113 20.1045695,11.0029202 19,11.0029202 M21,20.000531 C21,21.1048072 20.1045695,22 19,22 L5,22 C3.8954305,22 3,21.1048072 3,20.000531 L3,13.0023893 C3,11.898113 3.8954305,11.0029202 5,11.0029202 L19,11.0029202 M5,11.0029202 L7,11.0029202 L7,7.00398213 C6.99741839,4.43589856 8.94174231,2.28368238 11.4975039,2.02559317 C14.0532656,1.76750397 16.3888282,3.48752314 16.9,6.0042476" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

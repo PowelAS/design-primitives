@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M520 450a30 30 0 0 1-30 30H70a30 30 0 0 1-30-30V210a30 30 0 0 1 30-30h420a30 30 0 0 1 30 30zm0-310H240l-48.3-80.6A40 40 0 0 0 157.3 40H40A40 40 0 0 0 0 80v400a40 40 0 0 0 40 40h480a40 40 0 0 0 40-40V180a40 40 0 0 0-40-40z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/cases</title>
+    <g id="icon/cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22,19 C22,20.1045695 21.1045695,21 20,21 L4,21 C2.8954305,21 2,20.1045695 2,19 L2,5 C2,3.8954305 2.8954305,3 4,3 L9,3 L11,6 L20,6 C21.1045695,6 22,6.8954305 22,8 L22,19 Z" id="Path" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M0 200L220 80v80h180.2c88.3 0 159.8 71.7 159.8 160v.1c0 88.3-71.6 159.9-159.8 159.9H220v-80h180.2c44 0 79.8-36 79.8-80s-35.8-80-79.8-80H220v80L0 200z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>undo</title>
+    <g id="undo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4.51,14.9908826 C5.8420064,18.7715996 9.5138392,21.2156801 13.5157152,20.9853529 C17.5175912,20.7550257 20.8847697,17.9058163 21.7742205,13.9972437 C22.6636713,10.0886712 20.8609726,6.06298331 17.3528343,4.12364643 C13.844696,2.18430955 9.47683228,2.79884368 6.64,5.63088264 L2,9.99088264 L2,3.99088264 L2,9.99088264 L8,9.99088264" id="Path" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>adjust</title>
+    <g id="adjust" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20,3 L20,12 M20,21 L20,16 M12,3 L12,8 M12,12 L12,21 M4,21 L4,14 M4,10 L4,3 M1,14 L7,14 M9,8 L15,8 M17,16 L23,16" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

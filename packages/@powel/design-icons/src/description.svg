@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M80 180h140v120H80zM340 180h140v40H340zM340 260h140v40H340zM340 340h140v40H340zM80 340h140v40H80zM520 80H40C18 80 0 98 0 120v320c0 22 18 40 40 40h480c22 0 40-18 40-40V120c0-22-18-40-40-40zM40 420V140c0-11 9-20 20-20h200v320H60c-11 0-20-9-20-20zm480 0c0 11-9 20-20 20H300V120h200c11 0 20 9 20 20v280z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>description</title>
+    <g id="description" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22,10 L22,18 M18.5,18 C20.4329966,18 22,16.4329966 22,14.5 C22,12.5670034 20.4329966,11 18.5,11 C16.5670034,11 15,12.5670034 15,14.5 M18.5,18 C16.5670034,18 15,16.4329966 15,14.5 M13,18 L7.5,7 L2,18 L4.0625,13.875 L10.9375,13.875" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

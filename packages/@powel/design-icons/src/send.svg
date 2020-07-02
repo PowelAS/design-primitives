@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M560 119L220.5 314.7 160 440l128.5-78.8 134.4 55.9zM141.7 299.6L560 119 0 241.3z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>send</title>
+    <g id="send" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <polyline id="Path" stroke="#000000" stroke-width="2" points="11 13 22 2 15 22 11 13 2 9 22 2"></polyline>
+    </g>
+</svg>

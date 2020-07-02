@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/validation</title>
+    <g id="icon/validation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M22,11.08 L22,12 C21.9974678,16.4286859 19.082294,20.328213 14.8353524,21.583901 C10.5884109,22.839589 6.02139355,21.1523121 3.61095509,17.4370663 C1.20051662,13.7218205 1.52086345,8.86363898 4.39827419,5.49707214 C7.27568494,2.13050531 12.0247126,1.05752528 16.07,2.86 M22,4 L12,14.01 L9,11.01" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

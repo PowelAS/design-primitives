@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>image</title>
+    <g id="image" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8.5,10 C9.32842712,10 10,9.32842712 10,8.5 C10,7.67157288 9.32842712,7 8.5,7 C7.67157288,7 7,7.67157288 7,8.5 M8.5,10 C7.67157288,10 7,9.32842712 7,8.5 M5,3 L19,3 C20.1045695,3 21,3.8954305 21,5 L21,19 C21,20.1045695 20.1045695,21 19,21 L5,21 C3.8954305,21 3,20.1045695 3,19 M5,3 C3.8954305,3 3,3.8954305 3,5 L3,19 C3,20.1045695 3.8954305,21 5,21 M5,21 L16,10 L21,15" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

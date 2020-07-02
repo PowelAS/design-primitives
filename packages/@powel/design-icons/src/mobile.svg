@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" enable-background="new 0 0 560 560"><path d="M380.1 0H179.9C146.8 0 120 26.9 120 60v440c0 33.1 26.8 60 59.9 60h200.3c33.1 0 59.9-26.9 59.9-60V60c-.1-33.1-26.9-60-60-60zM280 520c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40zm100-120H180c-11 0-20-9-20-20V60c0-11 9-20 20-20h200c11 0 20 9 20 20v320c0 11-9 20-20 20z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mobile</title>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7.5,2 L16.2634346,2 C17.0918617,2 17.7634346,2.67157288 17.7634346,3.5 L17.7634346,20.5 C17.7634346,21.3284271 17.0918617,22 16.2634346,22 L7.5,22 C6.67157288,22 6,21.3284271 6,20.5 M16.2634346,2 L7.5,2 C6.67157288,2 6,2.67157288 6,3.5 L6,20.5 C6,21.3284271 6.67157288,22 7.5,22 L16.2634346,22 C17.0918617,22 17.7634346,21.3284271 17.7634346,20.5 M12,19 L12.01,19 L12,19" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

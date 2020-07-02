@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M410 220H250c-16.6 0-30-13.4-30-30s13.4-30 30-30h160c16.6 0 30 13.4 30 30s-13.4 30-30 30z"/><circle cx="150" cy="190" r="30"/><path d="M520 40H40C17.9 40 0 57.9 0 80v300c0 22.1 17.9 40 40 40h91.7l89.4 89.4c21.7 21.7 58.9 6.3 58.9-24.4v-65h240c22.1 0 40-17.9 40-40V80c0-22.1-17.9-40-40-40zm0 320c0 11-9 20-20 20H240v92.3L147.7 380H60c-11 0-20-9-20-20V100c0-11 9-20 20-20h440c11 0 20 9 20 20v260z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/comment</title>
+    <g id="icon/comment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21,15 C21,16.1045695 20.1045695,17 19,17 L7,17 L3,21 L3,5 C3,3.8954305 3.8954305,3 5,3 L19,3 C20.1045695,3 21,3.8954305 21,5 L21,15 Z" id="Path" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

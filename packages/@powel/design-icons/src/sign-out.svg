@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M280 300c-22.1 0-40-17.9-40-40V40c0-22.1 17.9-40 40-40s40 17.9 40 40v220c0 22.1-17.9 40-40 40zM280 560c-69.4 0-134.7-27-183.8-76.2C47 434.7 20 369.4 20 300c0-76.6 33.5-148.9 92-198.4 16.9-14.3 42.1-12.2 56.4 4.6 14.3 16.8 12.2 42.1-4.6 56.4C123.2 196.9 100 247 100 300c0 99.3 80.8 180 180 180s180-80.8 180-180c0-53-23.2-103.1-63.7-137.4-16.8-14.3-18.9-39.5-4.6-56.4 14.3-16.8 39.5-18.9 56.4-4.6 58.4 49.5 92 121.9 92 198.4 0 69.4-27 134.7-76.2 183.8C414.7 533 349.4 560 280 560z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>signOut</title>
+    <g id="signOut" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9,3 L5,3 C3.8954305,3 3,3.8954305 3,5 L3,19 C3,20.1045695 3.8954305,21 5,21 L9,21 M16,17 L21,12 L16,7 L21,12 L9,12" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

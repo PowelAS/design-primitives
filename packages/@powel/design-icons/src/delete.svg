@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M100 140v380c0 22.1 17.9 40 40 40h280c22.1 0 40-17.9 40-40V140H100zm40 340V260c0-11 9-20 20-20s20 9 20 20v220c0 11-9 20-20 20s-20-9-20-20zm80 0V260c0-11 9-20 20-20s20 9 20 20v220c0 11-9 20-20 20s-20-9-20-20zm80 0V260c0-11 9-20 20-20s20 9 20 20v220c0 11-9 20-20 20s-20-9-20-20zm100 20c-11 0-20-9-20-20V260c0-11 9-20 20-20s20 9 20 20v220c0 11-9 20-20 20zM440 40H340V20c0-11-9-20-20-20h-80c-11 0-20 9-20 20v20H120c-22.1 0-40 17.9-40 40v20h400V80c0-22.1-17.9-40-40-40z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>delete</title>
+    <g id="delete" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M3,6 L5,6 L21,6 L19,6 L19,20 C19,21.1045695 18.1045695,22 17,22 L7,22 C5.8954305,22 5,21.1045695 5,20 L5,6 L8,6 L8,4 C8,2.8954305 8.8954305,2 10,2 L14,2 C15.1045695,2 16,2.8954305 16,4 L16,6 M10,11 L10,17 M14,17 L14,11" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

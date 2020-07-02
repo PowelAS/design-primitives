@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><path d="M0 160v240h560V160H0zm520 200H40V200h60v60h40v-60h40v120h40V200h40v60h40v-60h40v120h40V200h40v60h40v-60h60v160z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>measure</title>
+    <g id="measure" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1,16 L23,16 L23,8 L1,8 L4.5,8 L4.5,10.8665328 M1,16 L1,8 M1,16 L23,16 L23,8 L1,8 L4.5,8 L4.5,10.8665328 M8.2,10.8665328 L8.2,8 L11.9,8 L11.9,10.8665328 M15.6,10.8665328 L15.6,8 L19.3,8 L19.3,10.8665328" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

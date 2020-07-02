@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="560" viewBox="0 0 560 560"><ellipse cx="280" cy="50" rx="200" ry="50"/><path d="M280 446.7c-110 0-199.3-22.2-200-49.7v113c0 27.6 89.5 50 200 50s200-22.4 200-50V397c-.7 27.5-90 49.7-200 49.7zM80 243v.3-.3zM280 293.3c-110.5 0-200-22.4-200-50v113.3c0 27.6 89.5 50 200 50s200-22.4 200-50V243.3c0 27.6-89.5 50-200 50zM280 140c-110.5 0-200-22.4-200-50v113.3c0 27.6 89.5 50 200 50s200-22.4 200-50V90c0 27.6-89.5 50-200 50z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>database</title>
+    <g id="database" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21,5 L21,19 C21,20.66 17,22 12,22 C7,22 3,20.66 3,19 L3,5 C3,3.34314575 7.02943725,2 12,2 C16.9705627,2 21,3.34314575 21,5 C21,6.65685425 16.9705627,8 12,8 C7.02943725,8 3,6.65685425 3,5 C3,3.34314575 7.02943725,2 12,2 C16.9705627,2 21,3.34314575 21,5 C21,8.5 21,8.5 21,12 C21,13.66 17,15 12,15 C7,15 3,13.66 3,12" id="Oval" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

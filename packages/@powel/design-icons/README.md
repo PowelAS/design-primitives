@@ -16,14 +16,14 @@ In JavaScript, design token names are formatted in [lower camelCase](https://en.
 
 ```js
 const tokens = require('@powel/design-icons');
-console.log(tokens.angleUp); // SVG icon markup
+console.log(tokens.signOut); // SVG icon markup
 ```
 
 In JSON, design token names are formatted in [SNAKE_CASE](https://en.wikipedia.org/wiki/Snake_case).
 
 ```js
 const tokens = require('@powel/design-icons/dist/index.json');
-console.log(tokens['ANGLE_UP']); // SVG icon markup
+console.log(tokens['SIGN_OUT']); // SVG icon markup
 ```
 
 ### Sass
@@ -36,3 +36,7 @@ Sass variables and map keys are formatted in [kebab-case](https://en.wikipedia.o
 
 // $angle-up;
 ```
+
+### SVG sprite
+
+`@powel/design-icons/dist/sprite.svg`

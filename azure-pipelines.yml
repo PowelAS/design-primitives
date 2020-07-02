@@ -34,7 +34,7 @@ jobs:
     displayName: Release packages
     dependsOn:
       - code_validation_and_tests
-    condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'master'), ne(variables['Build.Reason'], 'PullRequest'))
+    condition: and(succeeded(), or(eq(variables['Build.SourceBranchName'], 'master'), eq(variables['Build.SourceBranchName'], 'next')), ne(variables['Build.Reason'], 'PullRequest'))
     pool:
       vmImage: 'Ubuntu-16.04'
     steps:

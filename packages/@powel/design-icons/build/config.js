@@ -1,4 +1,7 @@
 const path = require('path');
+const nodeYAML = require('node-yaml');
+
+const svgo = nodeYAML.readSync(path.resolve(__dirname, '../.svgo.yml'));
 
 module.exports = {
   src: path.resolve(__dirname, '../src'),
@@ -14,117 +17,5 @@ module.exports = {
     'stroke-linecap': 'round',
     'stroke-linejoin': 'round'
   },
-  svgo: {
-    plugins: [
-      {
-        cleanupAttrs: true
-      },
-      {
-        inlineStyles: true
-      },
-      {
-        removeDoctype: true
-      },
-      {
-        removeXMLProcInst: true
-      },
-      {
-        removeComments: true
-      },
-      {
-        removeMetadata: true
-      },
-      {
-        removeTitle: true
-      },
-      {
-        removeDesc: true
-      },
-      {
-        removeUselessDefs: true
-      },
-      {
-        removeEditorsNSData: true
-      },
-      {
-        removeEmptyAttrs: true
-      },
-      {
-        removeHiddenElems: true
-      },
-      {
-        removeEmptyText: true
-      },
-      {
-        removeEmptyContainers: true
-      },
-      {
-        removeViewBox: false
-      },
-      {
-        cleanUpEnableBackground: true
-      },
-      {
-        convertStyleToAttrs: true
-      },
-      {
-        convertColors: true
-      },
-      {
-        convertPathData: false
-      },
-      {
-        convertTransform: false
-      },
-      {
-        removeUnknownsAndDefaults: true
-      },
-      {
-        removeNonInheritableGroupAttrs: true
-      },
-      {
-        removeUselessStrokeAndFill: true
-      },
-      {
-        removeUnusedNS: true
-      },
-      {
-        cleanupIDs: true
-      },
-      {
-        cleanupNumericValues: {
-          floatPrecision: 2
-        }
-      },
-      {
-        moveElemsAttrsToGroup: true
-      },
-      {
-        moveGroupAttrsToElems: true
-      },
-      {
-        collapseGroups: true
-      },
-      {
-        removeRasterImages: false
-      },
-      {
-        mergePaths: true
-      },
-      {
-        convertShapeToPath: true
-      },
-      {
-        sortAttrs: false
-      },
-      {
-        removeDimensions: true
-      },
-      {
-        removeAttrs: {
-          attrs: '(fill.*|stroke.*)'
-        }
-      }
-    ]
-  }
+  svgo
 };

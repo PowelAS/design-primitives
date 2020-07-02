@@ -24,9 +24,11 @@
     "clean": "rimraf dist coverage ../../node_modules/@powel/design-icons",
     "prebuild": "npm run clean",
     "postbuild": "cpy package.json ../../node_modules/@powel/design-icons",
-    "build:icons": "node ./build",
-    "build:tokens": "theo --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css --dest ../../node_modules/@powel/design-icons/dist src/index.yml",
-    "build": "run-s build:*",
+    "build:icons:process": "node ./build",
+    "build:icons:tokens": "theo --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css --dest ../../node_modules/@powel/design-icons/dist src/index.yml",
+    "build:icons": "run-s build:icons:*",
+    "optimize": "svgo -f ./src --config=.svgo.yml -o ../../node_modules/@powel/design-icons/dist/icons",
+    "build": "run-p build:icons optimize",
     "prepublishOnly": "rimraf dist && cpy \"@powel/design-icons/dist/**/*\" .. --cwd=../../node_modules --parents"
   },
   "devDependencies": {

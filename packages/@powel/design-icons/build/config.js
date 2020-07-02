@@ -92,7 +92,9 @@ module.exports = {
         cleanupIDs: true
       },
       {
-        cleanupNumericValues: true
+        cleanupNumericValues: {
+          floatPrecision: 2
+        }
       },
       {
         moveElemsAttrsToGroup: true
@@ -120,7 +122,7 @@ module.exports = {
       },
       {
         removeAttrs: {
-          attrs: '(fill|stroke.*)'
+          attrs: '(fill.*|stroke.*)'
         }
       }
     ]

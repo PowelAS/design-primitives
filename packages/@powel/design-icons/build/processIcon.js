@@ -1,7 +1,7 @@
 'use strict';
 
 const xml2js = require('xml2js');
-const { camelCaseTransformMerge } = require('camel-case');
+const camelCase = require('lodash.camelcase');
 
 const { viewboxSize, defaultAttrs } = require('./config');
 
@@ -44,7 +44,7 @@ function toSvgSymbol(id, contents) {
   return {
     symbol: {
       $: {
-        id: `svg--${camelCaseTransformMerge(id)}`,
+        id: `svg--${camelCase(id)}`,
         viewBox
       },
       ...tags

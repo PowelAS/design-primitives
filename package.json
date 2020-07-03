@@ -100,6 +100,7 @@
     "theo": "8.1.4",
     "typescript": "3.7.4",
     "xml2js": "0.4.23",
-    "constant-case": "3.0.3"
+    "constant-case": "3.0.3",
+    "camel-case": "4.1.1"
   }
 }

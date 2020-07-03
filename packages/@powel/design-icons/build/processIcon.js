@@ -43,7 +43,7 @@ function toSvgSymbol(id, contents) {
   return {
     symbol: {
       $: {
-        id,
+        id: `svg--${id}`,
         viewBox
       },
       ...tags

@@ -1,5 +1,5 @@
 global:
-  type: property
+  type: string
   category: media-query
 imports:
   - ./_aliases.yml

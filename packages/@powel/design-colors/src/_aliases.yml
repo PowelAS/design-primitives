@@ -3,61 +3,109 @@ aliases:
   # --------------------------------------
   BLACK: '#000000'
   WHITE: '#ffffff'
-  GRAY5: '#fbfbfb'
-  GRAY10: '#f6f6f6'
-  GRAY15: '#eeeeee'
-  GRAY25: '#e4e4e4'
-  GRAY50: '#dadada'
-  GRAY75: '#c5c5c5'
-  GRAY100: '#909090'
-  GRAY125: '#5d5d5d'
-  GRAY130: '#282828'
+  GRAY5: '#f2f2f2'
+  GRAY10: '#e5e5e5'
+  GRAY15: '#d9d9d9'
+  GRAY25: '#bfbfbf'
+  GRAY50: '#7f7f7f'
+  GRAY75: '#4c4c4c'
+  GRAY100: '#333333'
+  GRAY125: '#191919'
 
-  # Navy
+  # Primary
   # --------------------------------------
-  NAVY5: '#f2f9fa'
-  NAVY10: '#e5f2f5'
-  NAVY15: '#d9edf0'
-  NAVY25: '#bfe0e6'
-  NAVY50: '#7fc0cd'
-  NAVY75: '#40a2b4'
-  NAVY100: '#00829b'
-  NAVY125: '#00687C'
+  PRIMARY5: '#f3f4f5'
+  PRIMARY10: '#e7e9ea'
+  PRIMARY15: '#dcdfe1'
+  PRIMARY25: '#c4cacc'
+  PRIMARY50: '#899499'
+  PRIMARY75: '#466066'
+  PRIMARY100: '#132a33'
+  PRIMARY125: '#0e1f26'
+
+  # Accent
+  # --------------------------------------
+  ACCENT5: '#f3f9f9'
+  ACCENT10: '#e7f2f3'
+  ACCENT15: '#dceded'
+  ACCENT25: '#c4e0e1'
+  ACCENT50: '#73b5b8'
+  ACCENT75: '#50a2a6'
+  ACCENT100: '#158388'
+  ACCENT125: '#0f6265'
 
   # Blues
   # --------------------------------------
-  BLUE25: '#bbe3ef'
-  BLUE50: '#7ccce5'
-  BLUE75: '#3fb7dc'
-  BLUE100: '#00a0d1'
-  BLUE125: '#0080A7'
+  BLUE10: '#e5effa'
+  BLUE15: '#d9e9f9'
+  BLUE25: '#bfd9f4'
+  BLUE50: '#7fb3e9'
+  BLUE75: '#408ede'
+  BLUE100: '#0068d3'
+  BLUE125: '#0057b1'
 
   # Green
   # --------------------------------------
-  GREEN25: '#dee6bb'
-  GREEN50: '#c3d17c'
-  GREEN75: '#a9bf3f'
-  GREEN100: '#8daa00'
-  GREEN125: '#718800'
-
-  # Purple
-  # --------------------------------------
-  PURPLE25: '#e6bbcd'
-  PURPLE50: '#d17ca1'
-  PURPLE75: '#bf3f76'
-  PURPLE100: '#aa0049'
+  GREEN10: '#e5f3eA'
+  GREEN15: '#d9ede0'
+  GREEN25: '#bfe1ca'
+  GREEN50: '#7fc396'
+  GREEN75: '#40a562'
+  GREEN100: '#00872d'
+  GREEN125: '#006622'
 
   # Orange
   # --------------------------------------
-  ORANGE25: '#f4e0bc'
-  ORANGE50: '#efc57d'
-  ORANGE75: '#ebad41'
-  ORANGE100: '#e59202'
-
-  # Yellow
-  # --------------------------------------
-  YELLOW100: '#f7e00c'
+  ORANGE10: '#fff6e5'
+  ORANGE15: '#fff2d9'
+  ORANGE25: '#ffe8bf'
+  ORANGE50: '#ffd27f'
+  ORANGE75: '#ffbc40'
+  ORANGE100: '#ffa500'
+  ORANGE125: '#d88400'
 
   # Red
   # --------------------------------------
-  RED100: '#d73c40'
+  RED10: '#fde5e5'
+  RED15: '#fdd9d9'
+  RED25: '#fabfbf'
+  RED50: '#f67f7f'
+  RED75: '#f24040'
+  RED100: '#ed0000'
+  RED125: '#b50000'
+
+  # Teal
+  # --------------------------------------
+  TEAL10: '#e5f5f8'
+  TEAL15: '#d9f2f6'
+  TEAL25: '#bfe8ef'
+  TEAL50: '#7fd1df'
+  TEAL75: '#40bbd0'
+  TEAL100: '#00a4c0'
+
+  # Pink
+  # --------------------------------------
+  PINK10: '#f6e7ed'
+  PINK15: '#f3dce6'
+  PINK25: '#eac5d4'
+  PINK50: '#d58aa9'
+  PINK75: '#c1517f'
+  PINK100: '#ac1654'
+
+  # Purple
+  # --------------------------------------
+  PURPLE10: '#edecf6'
+  PURPLE15: '#e5e3f3'
+  PURPLE25: '#d4d0ea'
+  PURPLE50: '#a8a1d4'
+  PURPLE75: '#7e72c0'
+  PURPLE100: '#5243aa'
+
+  # Yellow
+  # --------------------------------------
+  YELLOW10: '#fff9e5'
+  YELLOW15: '#fff6d9'
+  YELLOW25: '#fff0bf'
+  YELLOW50: '#ffe17f'
+  YELLOW75: '#ffd340'
+  YELLOW100: '#ffc400'

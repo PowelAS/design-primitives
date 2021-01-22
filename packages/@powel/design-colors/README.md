@@ -2,7 +2,7 @@
 
 Color primitives/tokens to be used across Powel's products
 
-![Screenshot](https://user-images.githubusercontent.com/927591/73183455-19bd9a00-411b-11ea-82c2-c5d354dc9563.png)
+![Screenshot](https://user-images.githubusercontent.com/927591/105490290-d9084a80-5cb4-11eb-877b-3b1ba323e2a3.png)
 
 ## Installation
 
@@ -37,6 +37,6 @@ Sass variables and map keys are formatted in [kebab-case](https://en.wikipedia.o
 @import '~@powel/design-colors/dist/index';
 
 a {
-  color: $color-navy125;
+  color: $color-accent125;
 }
 ```

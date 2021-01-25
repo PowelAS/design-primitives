@@ -14,90 +14,105 @@ props:
     meta:
       friendlyName: BLACK
 
+  - name: GRAY50
+    value: '{!GRAY50}'
+    meta:
+      friendlyName: Gray 50
   - name: GRAY75
     value: '{!GRAY75}'
     meta:
       friendlyName: Gray 75
-  - name: GRAY100
-    value: '{!GRAY100}'
-    meta:
-      friendlyName: Gray 100
-  - name: GRAY125
-    value: '{!GRAY125}'
-    meta:
-      friendlyName: Gray 125
 
-  - name: PRIMARY50
-    value: '{!PRIMARY50}'
+  - name: PRIMARY60
+    value: '{!PRIMARY60}'
     meta:
-      friendlyName: Primary 50
-  - name: PRIMARY75
-    value: '{!PRIMARY75}'
-    meta:
-      friendlyName: Primary 75
+      friendlyName: Primary 60
   - name: PRIMARY100
     value: '{!PRIMARY100}'
     meta:
       friendlyName: Primary 100
-  - name: PRIMARY125
-    value: '{!PRIMARY125}'
+  - name: PRIMARY120
+    value: '{!PRIMARY120}'
     meta:
-      friendlyName: Primary 125
+      friendlyName: Primary 120
 
-  - name: ACCENT50
-    value: '{!ACCENT50}'
-    meta:
-      friendlyName: Accent 50
-  - name: ACCENT75
-    value: '{!ACCENT75}'
-    meta:
-      friendlyName: Accent 75
   - name: ACCENT100
     value: '{!ACCENT100}'
     meta:
       friendlyName: Accent 100
-  - name: ACCENT125
-    value: '{!ACCENT125}'
+  - name: ACCENT120
+    value: '{!ACCENT120}'
     meta:
-      friendlyName: Accent 125
+      friendlyName: Accent 120
 
   - name: BLUE100
     value: '{!BLUE100}'
     meta:
       friendlyName: Blue 100
-  - name: BLUE125
-    value: '{!BLUE125}'
+  - name: BLUE120
+    value: '{!BLUE120}'
     meta:
-      friendlyName: Blue 125
+      friendlyName: Blue 120
 
   - name: GREEN100
     value: '{!GREEN100}'
     meta:
       friendlyName: Green 100
-  - name: GREEN125
-    value: '{!GREEN125}'
+  - name: GREEN120
+    value: '{!GREEN120}'
     meta:
-      friendlyName: Green 125
+      friendlyName: Green 120
 
   - name: ORANGE100
     value: '{!ORANGE100}'
     meta:
       friendlyName: Orange 100
-  - name: ORANGE125
-    value: '{!ORANGE125}'
+  - name: ORANGE120
+    value: '{!ORANGE120}'
     meta:
-      friendlyName: Orange 125
+      friendlyName: Orange 120
 
   - name: RED100
     value: '{!RED100}'
     meta:
       friendlyName: Red 100
-  - name: RED125
-    value: '{!RED125}'
+  - name: RED120
+    value: '{!RED120}'
     meta:
-      friendlyName: Red 125
+      friendlyName: Red 120
+
+  - name: TEAL100
+    value: '{!TEAL100}'
+    meta:
+      friendlyName: Teal 100
+  - name: TEAL120
+    value: '{!TEAL120}'
+    meta:
+      friendlyName: Teal 120
+
+  - name: PURPLE100
+    value: '{!YELLOW100}'
+    meta:
+      friendlyName: Purple 100
+  - name: PURPLE120
+    value: '{!PURPLE120}'
+    meta:
+      friendlyName: Purple 120
+
+  - name: PINK100
+    value: '{!YELLOW100}'
+    meta:
+      friendlyName: Pink 100
+  - name: PINK120
+    value: '{!PINK120}'
+    meta:
+      friendlyName: Pink 120
 
   - name: YELLOW100
     value: '{!YELLOW100}'
     meta:
       friendlyName: Yellow 100
+  - name: YELLOW120
+    value: '{!YELLOW120}'
+    meta:
+      friendlyName: Yellow 120

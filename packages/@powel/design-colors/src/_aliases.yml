@@ -7,21 +7,16 @@ aliases:
   GRAY10: '#e5e5e5'
   GRAY15: '#d9d9d9'
   GRAY25: '#bfbfbf'
-  GRAY50: '#7f7f7f'
-  GRAY75: '#4c4c4c'
-  GRAY100: '#333333'
-  GRAY125: '#191919'
+  GRAY50: '#767676'
+  GRAY75: '#404040'
 
   # Primary
   # --------------------------------------
-  PRIMARY5: '#f3f4f5'
-  PRIMARY10: '#e7e9ea'
-  PRIMARY15: '#dcdfe1'
-  PRIMARY25: '#c4cacc'
-  PRIMARY50: '#899499'
-  PRIMARY75: '#466066'
-  PRIMARY100: '#132a33'
-  PRIMARY125: '#0e1f26'
+  PRIMARY5: '#f2f4f5'
+  PRIMARY10: '#e6e9ea'
+  PRIMARY60: '#6b8085'
+  PRIMARY100: '#082b33'
+  PRIMARY120: '#062228'
 
   # Accent
   # --------------------------------------
@@ -29,83 +24,62 @@ aliases:
   ACCENT10: '#e7f2f3'
   ACCENT15: '#dceded'
   ACCENT25: '#c4e0e1'
-  ACCENT50: '#73b5b8'
-  ACCENT75: '#50a2a6'
+  ACCENT60: '#73b5b8'
   ACCENT100: '#158388'
-  ACCENT125: '#0f6265'
+  ACCENT120: '#10686c'
 
   # Blues
   # --------------------------------------
   BLUE10: '#e5effa'
-  BLUE15: '#d9e9f9'
-  BLUE25: '#bfd9f4'
   BLUE50: '#7fb3e9'
-  BLUE75: '#408ede'
   BLUE100: '#0068d3'
-  BLUE125: '#0057b1'
+  BLUE120: '#0057b1'
 
   # Green
   # --------------------------------------
   GREEN10: '#e5f3eA'
-  GREEN15: '#d9ede0'
-  GREEN25: '#bfe1ca'
   GREEN50: '#7fc396'
-  GREEN75: '#40a562'
   GREEN100: '#00872d'
-  GREEN125: '#006622'
+  GREEN120: '#006622'
 
   # Orange
   # --------------------------------------
-  ORANGE10: '#fff6e5'
-  ORANGE15: '#fff2d9'
-  ORANGE25: '#ffe8bf'
-  ORANGE50: '#ffd27f'
-  ORANGE75: '#ffbc40'
-  ORANGE100: '#ffa500'
-  ORANGE125: '#d88400'
+  ORANGE10: '#fdf0e5'
+  ORANGE50: '#f7b57f'
+  ORANGE100: '#ef6c00'
+  ORANGE120: '#b55100'
 
   # Red
   # --------------------------------------
   RED10: '#fde5e5'
-  RED15: '#fdd9d9'
-  RED25: '#fabfbf'
   RED50: '#f67f7f'
-  RED75: '#f24040'
   RED100: '#ed0000'
-  RED125: '#b50000'
+  RED120: '#b50000'
 
   # Teal
   # --------------------------------------
   TEAL10: '#e5f5f8'
-  TEAL15: '#d9f2f6'
-  TEAL25: '#bfe8ef'
   TEAL50: '#7fd1df'
-  TEAL75: '#40bbd0'
   TEAL100: '#00a4c0'
+  TEAL120: '#00798e'
 
   # Pink
   # --------------------------------------
   PINK10: '#f6e7ed'
-  PINK15: '#f3dce6'
-  PINK25: '#eac5d4'
   PINK50: '#d58aa9'
-  PINK75: '#c1517f'
   PINK100: '#ac1654'
+  PINK120: '#81103f'
 
   # Purple
   # --------------------------------------
   PURPLE10: '#edecf6'
-  PURPLE15: '#e5e3f3'
-  PURPLE25: '#d4d0ea'
   PURPLE50: '#a8a1d4'
-  PURPLE75: '#7e72c0'
   PURPLE100: '#5243aa'
+  PURPLE120: '#3d327f'
 
   # Yellow
   # --------------------------------------
   YELLOW10: '#fff9e5'
-  YELLOW15: '#fff6d9'
-  YELLOW25: '#fff0bf'
   YELLOW50: '#ffe17f'
-  YELLOW75: '#ffd340'
   YELLOW100: '#ffc400'
+  YELLOW120: '#bf9200'

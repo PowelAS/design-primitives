@@ -18,7 +18,7 @@ module.exports = theo => {
     const { props, aliases } = result.toJS();
 
     const adjustedProps = props.map(prop => {
-      const { checkContrast, name } = prop;
+      const { checkContrast, name, palette } = prop;
       const textColors = (checkContrast || []).reduce(
         (textColors, colorToCheck) => {
           const alias = aliases[colorToCheck];
@@ -51,6 +51,7 @@ module.exports = theo => {
 
       return {
         name,
+        palette,
         textColors
       };
     });

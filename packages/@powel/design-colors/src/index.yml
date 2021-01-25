@@ -36,14 +36,6 @@ props:
     value: '{!GRAY75}'
     meta:
       friendlyName: Gray 75
-  - name: COLOR_GRAY100
-    value: '{!GRAY100}'
-    meta:
-      friendlyName: Gray 100
-  - name: COLOR_GRAY125
-    value: '{!GRAY125}'
-    meta:
-      friendlyName: Gray 125
 
   - name: COLOR_PRIMARY5
     value: '{!PRIMARY5}'
@@ -53,30 +45,18 @@ props:
     value: '{!PRIMARY10}'
     meta:
       friendlyName: Primary 10
-  - name: COLOR_PRIMARY15
-    value: '{!PRIMARY15}'
+  - name: COLOR_PRIMARY60
+    value: '{!PRIMARY60}'
     meta:
-      friendlyName: Primary 15
-  - name: COLOR_PRIMARY25
-    value: '{!PRIMARY25}'
-    meta:
-      friendlyName: Primary 25
-  - name: COLOR_PRIMARY50
-    value: '{!PRIMARY50}'
-    meta:
-      friendlyName: Primary 50
-  - name: COLOR_PRIMARY75
-    value: '{!PRIMARY75}'
-    meta:
-      friendlyName: Primary 75
+      friendlyName: Primary 60
   - name: COLOR_PRIMARY100
     value: '{!PRIMARY100}'
     meta:
       friendlyName: Primary 100
-  - name: COLOR_PRIMARY125
-    value: '{!PRIMARY125}'
+  - name: COLOR_PRIMARY120
+    value: '{!PRIMARY120}'
     meta:
-      friendlyName: Primary 125
+      friendlyName: Primary 120
 
   - name: COLOR_ACCENT5
     value: '{!ACCENT5}'
@@ -94,235 +74,151 @@ props:
     value: '{!ACCENT25}'
     meta:
       friendlyName: Accent 25
-  - name: COLOR_ACCENT50
-    value: '{!ACCENT50}'
+  - name: COLOR_ACCENT60
+    value: '{!ACCENT60}'
     meta:
-      friendlyName: Accent 50
-  - name: COLOR_ACCENT75
-    value: '{!ACCENT75}'
-    meta:
-      friendlyName: Accent 75
+      friendlyName: Accent 60
   - name: COLOR_ACCENT100
     value: '{!ACCENT100}'
     meta:
       friendlyName: Accent 100
-  - name: COLOR_ACCENT125
-    value: '{!ACCENT125}'
+  - name: COLOR_ACCENT120
+    value: '{!ACCENT120}'
     meta:
-      friendlyName: Accent 125
+      friendlyName: Accent 120
 
   - name: COLOR_BLUE10
     value: '{!BLUE10}'
     meta:
       friendlyName: Blue 10
-  - name: COLOR_BLUE15
-    value: '{!BLUE15}'
-    meta:
-      friendlyName: Blue 15
-  - name: COLOR_BLUE25
-    value: '{!BLUE25}'
-    meta:
-      friendlyName: Blue 25
   - name: COLOR_BLUE50
     value: '{!BLUE50}'
     meta:
       friendlyName: Blue 50
-  - name: COLOR_BLUE75
-    value: '{!BLUE75}'
-    meta:
-      friendlyName: Blue 75
   - name: COLOR_BLUE100
     value: '{!BLUE100}'
     meta:
       friendlyName: Blue 100
-  - name: COLOR_BLUE125
-    value: '{!BLUE125}'
+  - name: COLOR_BLUE120
+    value: '{!BLUE120}'
     meta:
-      friendlyName: Blue 125
+      friendlyName: Blue 120
 
   - name: COLOR_GREEN10
     value: '{!GREEN10}'
     meta:
       friendlyName: Green 10
-  - name: COLOR_GREEN15
-    value: '{!GREEN15}'
-    meta:
-      friendlyName: Green 15
-  - name: COLOR_GREEN25
-    value: '{!GREEN25}'
-    meta:
-      friendlyName: Green 25
   - name: COLOR_GREEN50
     value: '{!GREEN50}'
     meta:
       friendlyName: Green 50
-  - name: COLOR_GREEN75
-    value: '{!GREEN75}'
-    meta:
-      friendlyName: Green 75
   - name: COLOR_GREEN100
     value: '{!GREEN100}'
     meta:
       friendlyName: Green 100
-  - name: COLOR_GREEN125
-    value: '{!GREEN125}'
+  - name: COLOR_GREEN120
+    value: '{!GREEN120}'
     meta:
-      friendlyName: Green 125
+      friendlyName: Green 120
 
   - name: COLOR_ORANGE10
     value: '{!ORANGE10}'
     meta:
       friendlyName: Orange 10
-  - name: COLOR_ORANGE15
-    value: '{!ORANGE15}'
-    meta:
-      friendlyName: Orange 15
-  - name: COLOR_ORANGE25
-    value: '{!ORANGE25}'
-    meta:
-      friendlyName: Orange 25
   - name: COLOR_ORANGE50
     value: '{!ORANGE50}'
     meta:
       friendlyName: Orange 50
-  - name: COLOR_ORANGE75
-    value: '{!ORANGE75}'
-    meta:
-      friendlyName: Orange 75
   - name: COLOR_ORANGE100
     value: '{!ORANGE100}'
     meta:
       friendlyName: Orange 100
-  - name: COLOR_ORANGE125
-    value: '{!ORANGE125}'
+  - name: COLOR_ORANGE120
+    value: '{!ORANGE120}'
     meta:
-      friendlyName: Orange 125
+      friendlyName: Orange 120
 
   - name: COLOR_RED10
     value: '{!RED10}'
     meta:
       friendlyName: Red 10
-  - name: COLOR_RED15
-    value: '{!RED15}'
-    meta:
-      friendlyName: Red 15
-  - name: COLOR_RED25
-    value: '{!RED25}'
-    meta:
-      friendlyName: Red 25
   - name: COLOR_RED50
     value: '{!RED50}'
     meta:
       friendlyName: Red 50
-  - name: COLOR_RED75
-    value: '{!RED75}'
-    meta:
-      friendlyName: Red 75
   - name: COLOR_RED100
     value: '{!RED100}'
     meta:
       friendlyName: Red 100
-  - name: COLOR_RED125
-    value: '{!RED125}'
+  - name: COLOR_RED120
+    value: '{!RED120}'
     meta:
-      friendlyName: Red 125
+      friendlyName: Red 120
 
   - name: COLOR_TEAL10
     value: '{!TEAL10}'
     meta:
       friendlyName: Teal 10
-  - name: COLOR_TEAL15
-    value: '{!TEAL15}'
-    meta:
-      friendlyName: Teal 15
-  - name: COLOR_TEAL25
-    value: '{!TEAL25}'
-    meta:
-      friendlyName: Teal 25
   - name: COLOR_TEAL50
     value: '{!TEAL50}'
     meta:
       friendlyName: Teal 50
-  - name: COLOR_TEAL75
-    value: '{!TEAL75}'
-    meta:
-      friendlyName: Teal 75
   - name: COLOR_TEAL100
     value: '{!TEAL100}'
     meta:
       friendlyName: TEAL 100
+  - name: COLOR_TEAL120
+    value: '{!TEAL120}'
+    meta:
+      friendlyName: TEAL 120
 
   - name: COLOR_PURPLE10
     value: '{!PURPLE10}'
     meta:
       friendlyName: Purple 10
-  - name: COLOR_PURPLE15
-    value: '{!PURPLE15}'
-    meta:
-      friendlyName: Purple 15
-  - name: COLOR_PURPLE25
-    value: '{!PURPLE25}'
-    meta:
-      friendlyName: Purple 25
   - name: COLOR_PURPLE50
     value: '{!PURPLE50}'
     meta:
       friendlyName: Purple 50
-  - name: COLOR_PURPLE75
-    value: '{!PURPLE75}'
-    meta:
-      friendlyName: Purple 75
   - name: COLOR_PURPLE100
     value: '{!PURPLE100}'
     meta:
       friendlyName: Purple 100
+  - name: COLOR_PURPLE120
+    value: '{!PURPLE120}'
+    meta:
+      friendlyName: Purple 120
 
   - name: COLOR_PINK10
     value: '{!PINK10}'
     meta:
       friendlyName: Pink 10
-  - name: COLOR_PINK15
-    value: '{!PINK15}'
-    meta:
-      friendlyName: Pink 15
-  - name: COLOR_PINK25
-    value: '{!PINK25}'
-    meta:
-      friendlyName: Pink 25
   - name: COLOR_PINK50
     value: '{!PINK50}'
     meta:
       friendlyName: Pink 50
-  - name: COLOR_PINK75
-    value: '{!PINK75}'
-    meta:
-      friendlyName: Pink 75
   - name: COLOR_PINK100
     value: '{!PINK100}'
     meta:
       friendlyName: Pink 100
+  - name: COLOR_PINK120
+    value: '{!PINK120}'
+    meta:
+      friendlyName: Pink 120
 
   - name: COLOR_YELLOW10
     value: '{!YELLOW10}'
     meta:
       friendlyName: Yellow 10
-  - name: COLOR_YELLOW15
-    value: '{!YELLOW15}'
-    meta:
-      friendlyName: Yellow 15
-  - name: COLOR_YELLOW25
-    value: '{!YELLOW25}'
-    meta:
-      friendlyName: Yellow 25
   - name: COLOR_YELLOW50
     value: '{!YELLOW50}'
     meta:
       friendlyName: Yellow 50
-  - name: COLOR_YELLOW75
-    value: '{!YELLOW75}'
-    meta:
-      friendlyName: Yellow 75
   - name: COLOR_YELLOW100
     value: '{!YELLOW100}'
     meta:
       friendlyName: Yellow 100
+  - name: COLOR_YELLOW120
+    value: '{!YELLOW120}'
+    meta:
+      friendlyName: Yellow 120

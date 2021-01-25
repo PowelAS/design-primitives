@@ -4,7 +4,8 @@ global:
   checkContrast:
     - WHITE
     - BLACK
-    - GRAY125
+    - GRAY75
+  palette: extended
 
 imports:
   - ./_aliases.yml
@@ -12,214 +13,245 @@ imports:
 props:
   - name: WHITE
     value: '{!WHITE}'
+    palette: shades
     meta:
       friendlyName: White
-  - name: BLACK
-    value: '{!BLACK}'
-    meta:
-      friendlyName: Black
-
   - name: GRAY5
     value: '{!GRAY5}'
+    palette: shades
     meta:
       friendlyName: Gray 5
   - name: GRAY10
+    palette: shades
     value: '{!GRAY10}'
     meta:
       friendlyName: Gray 10
   - name: GRAY15
+    palette: shades
     value: '{!GRAY15}'
     meta:
       friendlyName: Gray 15
   - name: GRAY25
     value: '{!GRAY25}'
+    palette: shades
     meta:
       friendlyName: Gray 25
-  - name: GRAY100
-    value: '{!GRAY100}'
+  - name: GRAY50
+    value: '{!GRAY50}'
+    palette: shades
     meta:
-      friendlyName: Gray 100
-  - name: GRAY125
-    value: '{!GRAY125}'
+      friendlyName: Gray 50
+  - name: GRAY75
+    value: '{!GRAY75}'
+    palette: shades
     meta:
-      friendlyName: Gray 125
+      friendlyName: Gray 75
 
   - name: PRIMARY5
     value: '{!PRIMARY5}'
+    palette: primary
     meta:
       friendlyName: Primary 5
   - name: PRIMARY10
     value: '{!PRIMARY10}'
+    palette: primary
     meta:
       friendlyName: Primary 10
-  - name: PRIMARY15
-    value: '{!PRIMARY15}'
+  - name: PRIMARY60
+    value: '{!PRIMARY60}'
+    palette: primary
     meta:
-      friendlyName: Primary 15
-  - name: PRIMARY25
-    value: '{!PRIMARY25}'
-    meta:
-      friendlyName: Primary 25
+      friendlyName: Primary 60
   - name: PRIMARY100
     value: '{!PRIMARY100}'
+    palette: primary
     meta:
       friendlyName: Primary 100
-  - name: PRIMARY125
-    value: '{!PRIMARY125}'
+  - name: PRIMARY120
+    value: '{!PRIMARY120}'
+    palette: primary
     meta:
-      friendlyName: Primary 125
+      friendlyName: Primary 120
 
   - name: ACCENT5
     value: '{!ACCENT5}'
+    palette: accent
     meta:
       friendlyName: Accent 5
   - name: ACCENT10
     value: '{!ACCENT10}'
+    palette: accent
     meta:
       friendlyName: Accent 10
   - name: ACCENT15
     value: '{!ACCENT15}'
+    palette: accent
     meta:
       friendlyName: Accent 15
-  - name: ACCENT25
-    value: '{!ACCENT25}'
+  - name: ACCENT60
+    value: '{!ACCENT60}'
+    palette: accent
     meta:
-      friendlyName: Accent 25
+      friendlyName: Accent 60
   - name: ACCENT100
     value: '{!ACCENT100}'
+    palette: accent
     meta:
       friendlyName: Accent 100
-  - name: ACCENT125
-    value: '{!ACCENT125}'
+  - name: ACCENT120
+    value: '{!ACCENT120}'
+    palette: accent
     meta:
-      friendlyName: Accent 125
+      friendlyName: Accent 120
 
   - name: BLUE10
     value: '{!BLUE10}'
+    palette: notification
     meta:
       friendlyName: Blue 10
-  - name: BLUE15
-    value: '{!BLUE15}'
-    meta:
-      friendlyName: Blue 15
-  - name: BLUE25
-    value: '{!BLUE25}'
-    meta:
-      friendlyName: Blue 25
   - name: BLUE50
     value: '{!BLUE50}'
+    palette: notification
     meta:
       friendlyName: Blue 50
-  - name: BLUE75
-    value: '{!BLUE75}'
-    meta:
-      friendlyName: Blue 75
   - name: BLUE100
     value: '{!BLUE100}'
+    palette: notification
     meta:
       friendlyName: Blue 100
-  - name: BLUE125
-    value: '{!BLUE125}'
+  - name: BLUE120
+    value: '{!BLUE120}'
+    palette: notification
     meta:
-      friendlyName: Blue 125
+      friendlyName: Blue 120
 
   - name: GREEN10
     value: '{!GREEN10}'
+    palette: notification
     meta:
       friendlyName: Green 10
-  - name: GREEN15
-    value: '{!GREEN15}'
-    meta:
-      friendlyName: Green 15
-  - name: GREEN25
-    value: '{!GREEN25}'
-    meta:
-      friendlyName: Green 25
   - name: GREEN50
     value: '{!GREEN50}'
+    palette: notification
     meta:
       friendlyName: Green 50
-  - name: GREEN75
-    value: '{!GREEN75}'
-    meta:
-      friendlyName: Green 75
   - name: GREEN100
     value: '{!GREEN100}'
+    palette: notification
     meta:
       friendlyName: Green 100
-  - name: GREEN125
-    value: '{!GREEN125}'
+  - name: GREEN120
+    value: '{!GREEN120}'
+    palette: notification
     meta:
-      friendlyName: Green 125
+      friendlyName: Green 120
 
   - name: ORANGE10
     value: '{!ORANGE10}'
+    palette: notification
     meta:
       friendlyName: Orange 10
-  - name: ORANGE15
-    value: '{!ORANGE15}'
-    meta:
-      friendlyName: Orange 15
-  - name: ORANGE25
-    value: '{!ORANGE25}'
-    meta:
-      friendlyName: Orange 25
   - name: ORANGE50
     value: '{!ORANGE50}'
+    palette: notification
     meta:
       friendlyName: Orange 50
-  - name: ORANGE75
-    value: '{!ORANGE75}'
-    meta:
-      friendlyName: Orange 75
   - name: ORANGE100
     value: '{!ORANGE100}'
+    palette: notification
     meta:
       friendlyName: Orange 100
-  - name: ORANGE125
-    value: '{!ORANGE125}'
+  - name: ORANGE120
+    value: '{!ORANGE120}'
+    palette: notification
     meta:
-      friendlyName: Orange 125
+      friendlyName: Orange 120
 
   - name: RED10
     value: '{!RED10}'
+    palette: notification
     meta:
       friendlyName: Red 10
-  - name: RED15
-    value: '{!RED15}'
-    meta:
-      friendlyName: Red 15
-  - name: RED25
-    value: '{!RED25}'
-    meta:
-      friendlyName: Red 25
   - name: RED50
     value: '{!RED50}'
+    palette: notification
     meta:
       friendlyName: Red 50
-  - name: RED75
-    value: '{!RED75}'
-    meta:
-      friendlyName: Red 75
   - name: RED100
     value: '{!RED100}'
+    palette: notification
     meta:
       friendlyName: Red 100
-  - name: RED125
-    value: '{!RED125}'
+  - name: RED120
+    value: '{!RED120}'
+    palette: notification
     meta:
-      friendlyName: Red 125
+      friendlyName: Red 120
 
-  - name: PURPLE25
-    value: '{!PURPLE25}'
+  - name: TEAL10
+    value: '{!TEAL10}'
     meta:
-      friendlyName: Purple 25
+      friendlyName: Teal 10
+  - name: TEAL50
+    value: '{!TEAL50}'
+    meta:
+      friendlyName: Teal 50
+  - name: TEAL100
+    value: '{!TEAL100}'
+    meta:
+      friendlyName: Teal 100
+  - name: TEAL120
+    value: '{!TEAL120}'
+    meta:
+      friendlyName: Teal 120
+
+  - name: PURPLE10
+    value: '{!PURPLE10}'
+    meta:
+      friendlyName: Purple 10
+  - name: PURPLE50
+    value: '{!PURPLE50}'
+    meta:
+      friendlyName: Purple 50
   - name: PURPLE100
     value: '{!PURPLE100}'
     meta:
       friendlyName: Purple 100
+  - name: PURPLE120
+    value: '{!PURPLE120}'
+    meta:
+      friendlyName: Purple 120
 
+  - name: PINK10
+    value: '{!PINK10}'
+    meta:
+      friendlyName: Pink 10
+  - name: PINK50
+    value: '{!PINK50}'
+    meta:
+      friendlyName: Pink 50
+  - name: PINK100
+    value: '{!PINK100}'
+    meta:
+      friendlyName: Pink 100
+  - name: PINK120
+    value: '{!PINK120}'
+    meta:
+      friendlyName: Pink 120
+
+  - name: YELLOW10
+    value: '{!YELLOW10}'
+    meta:
+      friendlyName: Yellow 10
+  - name: YELLOW50
+    value: '{!YELLOW50}'
+    meta:
+      friendlyName: Yellow 50
   - name: YELLOW100
     value: '{!YELLOW100}'
     meta:
       friendlyName: Yellow 100
+  - name: YELLOW120
+    value: '{!YELLOW120}'
+    meta:
+      friendlyName: Yellow 120

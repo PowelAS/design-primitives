@@ -21,14 +21,12 @@
     "test": "jest",
     "test:coverage": "npm test -- --coverage",
     "lint": "eslint . --cache --fix --ext \".js,.ts\" --ignore-path ../../../.prettierignore",
-    "clean": "rimraf dist coverage ../../node_modules/@volue/design-spacing",
-    "_theo": "theo --transform web --dest ../../node_modules/@volue/design-spacing/dist",
+    "clean": "rimraf dist coverage",
+    "_theo": "theo --transform web --dest dist",
     "prebuild": "npm run clean",
-    "postbuild": "cpy package.json ../../node_modules/@volue/design-spacing",
     "build:tokens": "npm run _theo -s -- --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css,html src/index.yml",
     "build:tokensMap": "npm run _theo -s -- --format map.scss src/spacing.yml",
-    "build": "run-p build:*",
-    "prepublishOnly": "rimraf dist && cpy \"@volue/design-spacing/dist/**/*\" .. --cwd=../../node_modules --parents"
+    "build": "run-p build:*"
   },
   "devDependencies": {
     "cpy-cli": "3.0.0",

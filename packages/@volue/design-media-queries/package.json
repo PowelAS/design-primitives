@@ -21,15 +21,13 @@
     "test": "jest",
     "test:coverage": "npm test -- --coverage",
     "lint": "eslint . --cache --fix --ext \".js,.ts\" --ignore-path ../../../.prettierignore",
-    "clean": "rimraf dist coverage ../../node_modules/@volue/design-media-queries",
-    "_theo": "theo --setup theo.setup.js --transform web --dest ../../node_modules/@volue/design-media-queries/dist",
+    "clean": "rimraf dist coverage",
+    "_theo": "theo --setup theo.setup.js --transform web --dest dist",
     "prebuild": "npm run clean",
-    "postbuild": "cpy package.json ../../node_modules/@volue/design-media-queries",
     "build:mediaQueries": "npm run _theo -s -- --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css,html src/index.yml",
     "build:mediaQueriesMap": "npm run _theo -s -- --format map.scss,common.js src/mediaQueries.yml",
     "build:mediaQueriesSyncMap": "npm run _theo -s -- --format map.scss,common.js src/mediaQueriesSync.yml",
-    "build": "run-p build:*",
-    "prepublishOnly": "rimraf dist && cpy \"@volue/design-media-queries/dist/**/*\" .. --cwd=../../node_modules --parents"
+    "build": "run-p build:*"
   },
   "devDependencies": {
     "cpy-cli": "3.0.0",

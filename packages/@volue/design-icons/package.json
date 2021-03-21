@@ -21,15 +21,13 @@
     "test": "jest",
     "test:coverage": "npm test -- --coverage",
     "lint": "eslint . --cache --fix --ext \".js,.ts\" --ignore-path ../../../.prettierignore",
-    "clean": "rimraf dist coverage ../../node_modules/@volue/design-icons",
+    "clean": "rimraf dist coverage",
     "prebuild": "npm run clean",
-    "postbuild": "cpy package.json ../../node_modules/@volue/design-icons",
     "build:icons:process": "node ./build",
-    "build:icons:tokens": "theo --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css --dest ../../node_modules/@volue/design-icons/dist src/index.yml",
+    "build:icons:tokens": "theo --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css --dest dist src/index.yml",
     "build:icons": "run-s build:icons:*",
-    "optimize": "svgo -f ./src --config=.svgo.yml -o ../../node_modules/@volue/design-icons/dist/icons",
-    "build": "run-p build:icons optimize",
-    "prepublishOnly": "rimraf dist && cpy \"@volue/design-icons/dist/**/*\" .. --cwd=../../node_modules --parents"
+    "optimize": "svgo -f ./src --config=.svgo.yml -o dist/icons",
+    "build": "run-p build:icons optimize"
   },
   "devDependencies": {
     "constant-case": "3.0.3",

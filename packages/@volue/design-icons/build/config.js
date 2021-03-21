@@ -5,10 +5,7 @@ const svgo = nodeYAML.readSync(path.resolve(__dirname, '../.svgo.yml'));
 
 module.exports = {
   src: path.resolve(__dirname, '../src'),
-  out: path.resolve(
-    __dirname,
-    '../../../node_modules/@volue/design-icons/dist'
-  ),
+  out: path.resolve(__dirname, '../dist'),
   viewboxSize: 24,
   defaultAttrs: {
     fill: 'none',

@@ -8,5 +8,5 @@ export const cooker = Cooker(process.argv, {
     host: 'localhost:8787'
   },
   path: '.',
-  packagesGlobs: ['packages/@powel/*']
+  packagesGlobs: ['packages/@volue/*']
 });

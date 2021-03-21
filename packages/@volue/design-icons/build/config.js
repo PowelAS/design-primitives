@@ -7,7 +7,7 @@ module.exports = {
   src: path.resolve(__dirname, '../src'),
   out: path.resolve(
     __dirname,
-    '../../../node_modules/@powel/design-icons/dist'
+    '../../../node_modules/@volue/design-icons/dist'
   ),
   viewboxSize: 24,
   defaultAttrs: {

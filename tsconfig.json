@@ -14,7 +14,7 @@
     "noUnusedParameters": true,
     "baseUrl": ".",
     "paths": {
-      "@powel/*": ["packages/@powel/*/src"]
+      "@volue/*": ["packages/@volue/*/src"]
     }
   },
   "include": ["packages/**/src", "packages/**/@types", "@types"],

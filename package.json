@@ -1,7 +1,7 @@
 {
-  "name": "@powel/design-primitives",
+  "name": "@volue/design-primitives",
   "version": "0.0.0-ignore",
-  "description": "Global design primitives/tokens to be used across Powel's products",
+  "description": "Global design primitives/tokens to be used across Volue's products",
   "private": true,
   "engines": {
     "node": ">=10"

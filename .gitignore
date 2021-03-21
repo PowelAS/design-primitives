@@ -4,8 +4,8 @@ dist
 node_modules
 .eslintcache
 packages/**/package-lock.json
-packages/@powel/design-icons/src/index.yml
-packages/@powel/design-icons/src/sprite.svg
+packages/@volue/design-icons/src/index.yml
+packages/@volue/design-icons/src/sprite.svg
 
 # cruft
 .DS_Store

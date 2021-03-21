@@ -1,12 +1,12 @@
 {
-  "name": "@powel/design-icons",
+  "name": "@volue/design-icons",
   "version": "0.0.0",
-  "description": "Icons for Powel design primitives",
+  "description": "Icons for Volue design primitives",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "https://github.com/PowelAS/design-primitives.git",
-    "directory": "packages/@powel/design-icons"
+    "directory": "packages/@volue/design-icons"
   },
   "publishConfig": {
     "access": "public"
@@ -21,15 +21,15 @@
     "test": "jest",
     "test:coverage": "npm test -- --coverage",
     "lint": "eslint . --cache --fix --ext \".js,.ts\" --ignore-path ../../../.prettierignore",
-    "clean": "rimraf dist coverage ../../node_modules/@powel/design-icons",
+    "clean": "rimraf dist coverage ../../node_modules/@volue/design-icons",
     "prebuild": "npm run clean",
-    "postbuild": "cpy package.json ../../node_modules/@powel/design-icons",
+    "postbuild": "cpy package.json ../../node_modules/@volue/design-icons",
     "build:icons:process": "node ./build",
-    "build:icons:tokens": "theo --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css --dest ../../node_modules/@powel/design-icons/dist src/index.yml",
+    "build:icons:tokens": "theo --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css --dest ../../node_modules/@volue/design-icons/dist src/index.yml",
     "build:icons": "run-s build:icons:*",
-    "optimize": "svgo -f ./src --config=.svgo.yml -o ../../node_modules/@powel/design-icons/dist/icons",
+    "optimize": "svgo -f ./src --config=.svgo.yml -o ../../node_modules/@volue/design-icons/dist/icons",
     "build": "run-p build:icons optimize",
-    "prepublishOnly": "rimraf dist && cpy \"@powel/design-icons/dist/**/*\" .. --cwd=../../node_modules --parents"
+    "prepublishOnly": "rimraf dist && cpy \"@volue/design-icons/dist/**/*\" .. --cwd=../../node_modules --parents"
   },
   "devDependencies": {
     "constant-case": "3.0.3",

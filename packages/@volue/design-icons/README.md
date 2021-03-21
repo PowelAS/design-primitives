@@ -1,11 +1,11 @@
 # design-icons
 
-Icons to be used across Powel's products
+Icons to be used across Volue's products
 
 ## Installation
 
 ```sh
-npm install @powel/design-icons --save
+npm install @volue/design-icons --save
 ```
 
 ## Usage
@@ -15,14 +15,14 @@ npm install @powel/design-icons --save
 In JavaScript, design token names are formatted in [lower camelCase](https://en.wikipedia.org/wiki/Camel_case).
 
 ```js
-const tokens = require('@powel/design-icons');
+const tokens = require('@volue/design-icons');
 console.log(tokens.signOut); // SVG icon markup
 ```
 
 In JSON, design token names are formatted in [SNAKE_CASE](https://en.wikipedia.org/wiki/Snake_case).
 
 ```js
-const tokens = require('@powel/design-icons/dist/index.json');
+const tokens = require('@volue/design-icons/dist/index.json');
 console.log(tokens['SIGN_OUT']); // SVG icon markup
 ```
 
@@ -32,11 +32,11 @@ Sass variables and map keys are formatted in [kebab-case](https://en.wikipedia.o
 
 ```scss
 // Using variables
-@import '~@powel/design-icons/dist/index';
+@import '~@volue/design-icons/dist/index';
 
 // $angle-up;
 ```
 
 ### SVG sprite
 
-`@powel/design-icons/dist/sprite.svg`
+`@volue/design-icons/dist/sprite.svg`

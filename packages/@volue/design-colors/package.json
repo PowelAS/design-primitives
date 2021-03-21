@@ -1,12 +1,12 @@
 {
-  "name": "@powel/design-spacing",
+  "name": "@volue/design-colors",
   "version": "0.0.0",
-  "description": "Spacing primitives for Powel design primitives",
+  "description": "Color primitives for Volue design primitives",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "https://github.com/PowelAS/design-primitives.git",
-    "directory": "packages/@powel/design-spacing"
+    "directory": "packages/@volue/design-colors"
   },
   "publishConfig": {
     "access": "public"
@@ -21,16 +21,20 @@
     "test": "jest",
     "test:coverage": "npm test -- --coverage",
     "lint": "eslint . --cache --fix --ext \".js,.ts\" --ignore-path ../../../.prettierignore",
-    "clean": "rimraf dist coverage ../../node_modules/@powel/design-spacing",
-    "_theo": "theo --transform web --dest ../../node_modules/@powel/design-spacing/dist",
+    "clean": "rimraf dist coverage ../../node_modules/@volue/design-colors",
+    "_theo": "theo --setup theo.setup.js --transform web --dest ../../node_modules/@volue/design-colors/dist",
     "prebuild": "npm run clean",
-    "postbuild": "cpy package.json ../../node_modules/@powel/design-spacing",
+    "postbuild": "cpy package.json ../../node_modules/@volue/design-colors",
     "build:tokens": "npm run _theo -s -- --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css,html src/index.yml",
-    "build:tokensMap": "npm run _theo -s -- --format map.scss src/spacing.yml",
+    "build:backgroundFills": "npm run _theo -s -- --format withTextColors.json,html src/backgroundFills.yml",
+    "build:textColors": "npm run _theo -s -- --format json,html src/textColors.yml",
     "build": "run-p build:*",
-    "prepublishOnly": "rimraf dist && cpy \"@powel/design-spacing/dist/**/*\" .. --cwd=../../node_modules --parents"
+    "prepublishOnly": "rimraf dist && cpy \"@volue/design-colors/dist/**/*\" .. --cwd=../../node_modules --parents"
   },
   "devDependencies": {
+    "@fantasy-color/contrast-ratio-luminance": "0.1.0",
+    "@fantasy-color/from-hex": "0.1.0",
+    "@fantasy-color/luminance-rgb": "0.1.0",
     "cpy-cli": "3.0.0",
     "eslint": "6.8.0",
     "jest": "24.9.0",

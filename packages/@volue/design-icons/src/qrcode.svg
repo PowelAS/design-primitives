@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>qrcode</title>
-    <g id="qrcode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M17,20 L16,20 M20,20 L20,20 M16,14 L14,14 M17,17 L17,17 M17,20 L17,20 M17,17 L20,17 M14,17 L14,18 M19,14 L20,14 M14,10 L20,10 L20,4 L14,4 M20,10 L14,10 L14,4 L20,4 M4,4 L10,4 L10,10 L4,10 M10,4 L4,4 L4,10 L10,10 M4,14 L10,14 L10,20 L4,20 M10,14 L4,14 L4,20 L10,20" id="Shape" stroke="#000000" stroke-width="2"></path>
+    <title>Icons/Codes/QR-Code</title>
+    <g id="Icons/Codes/QR-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M17,20 L16,20 M19.9915492,20 C19.8812361,20.0086809 20.1105831,20 20.0014735,20 L19.9915492,20 M16,14 L14,14 M17,17 L20,17 M14,17 L14,18 M19,14 L20,14 M14,10 L20,10 L20,4 L14,4 M20,10 L14,10 L14,4 L20,4 M4,4 L10,4 L10,10 L4,10 M10,4 L4,4 L4,10 L10,10 M4,14 L10,14 L10,20 L4,20 M10,14 L4,14 L4,20 L10,20" id="Shape" stroke="#000000" stroke-width="2"></path>
     </g>
 </svg>

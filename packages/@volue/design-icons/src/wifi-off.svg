@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Wifi-off</title>
+    <g id="Icons/Wifi-off" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12,20 L12,20 M23,23 L1,1 M5,12.55 C6.48208292,11.3108283 8.26587266,10.4862137 10.17,10.16 M6.12,6.12 C4.39769826,6.79922557 2.80716514,7.77385012 1.42,9 M8.53,16.11 C10.6108267,14.6316733 13.3991733,14.6316733 15.48,16.11 M19,12.55 C18.3050353,11.9602959 17.5391008,11.4597509 16.72,11.06 M22.58,9 C19.3233621,6.12699041 15.0387656,4.701198 10.71,5.05" id="Shape" stroke="#000000" stroke-width="2"></path>
+    </g>
+</svg>

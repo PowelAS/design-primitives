@@ -10,9 +10,16 @@ const contrastRatioLuminance = require('@fantasy-color/contrast-ratio-luminance'
 const WCAG_REQ_RATIO_AA = 4.5;
 const WCAG_REQ_RATIO_AAA = 7.0;
 
+const dTSTokenFormat = `{{#each props as |prop|}}
+export declare const {{camelcase prop.name}} = "{{{prop.value}}}";
+{{/each}}`;
+
 module.exports = theo => {
   // Override the default "web" transform
   theo.registerTransform('web', ['color/hex']);
+
+  theo.registerFormat('module.d.ts', dTSTokenFormat);
+  theo.registerFormat('common.d.ts', dTSTokenFormat);
 
   theo.registerFormat('withTextColors.json', result => {
     const { props, aliases } = result.toJS();

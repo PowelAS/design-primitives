@@ -13,6 +13,8 @@
   },
   "main": "dist/index.common.js",
   "module": "dist/index.module.js",
+  "types": "dist/index.common.d.ts",
+  "sideEffects": false,
   "files": [
     "dist",
     "src"
@@ -24,7 +26,7 @@
     "clean": "rimraf dist coverage",
     "_theo": "theo --setup theo.setup.js --transform web --dest dist",
     "prebuild": "npm run clean",
-    "build:tokens": "npm run _theo -s -- --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css,html src/index.yml",
+    "build:tokens": "npm run _theo -s -- --format scss,json,common.js,common.d.ts,module.js,module.d.ts,custom-properties.css,cssmodules.css,html src/index.yml",
     "build:backgroundFills": "npm run _theo -s -- --format withTextColors.json,html src/backgroundFills.yml",
     "build:textColors": "npm run _theo -s -- --format json,html src/textColors.yml",
     "build": "run-p build:*"

@@ -6,10 +6,10 @@ Design primitives/tokens repository is the central location to store shared desi
 
 ## Packages
 
-- [design-colors](https://github.com/PowelAS/design-primitives/tree/master/packages/%40powel/design-colors)
-- [design-spacing](https://github.com/PowelAS/design-primitives/tree/master/packages/%40powel/design-spacing)
-- [design-media-queries](https://github.com/PowelAS/design-primitives/tree/master/packages/%40powel/design-media-queries)
-- [design-icons](https://github.com/PowelAS/design-primitives/tree/master/packages/%40powel/design-icons)
+- [design-colors](https://github.com/PowelAS/design-primitives/tree/master/packages/%40volue/design-colors)
+- [design-spacing](https://github.com/PowelAS/design-primitives/tree/master/packages/%40volue/design-spacing)
+- [design-media-queries](https://github.com/PowelAS/design-primitives/tree/master/packages/%40volue/design-media-queries)
+- [design-icons](https://github.com/PowelAS/design-primitives/tree/master/packages/%40volue/design-icons)
 
 ## Release process
 

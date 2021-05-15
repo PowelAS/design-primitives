@@ -24,7 +24,7 @@
     "clean": "rimraf dist coverage",
     "prebuild": "npm run clean",
     "build:icons:process": "node ./build",
-    "build:icons:tokens": "theo --format scss,json,common.js,module.js,custom-properties.css,cssmodules.css --dest dist src/index.yml",
+    "build:icons:tokens": "theo --setup theo.setup.js --format scss,json,common.js,common.d.ts,module.js,module.d.ts,custom-properties.css,cssmodules.css --dest dist src/index.yml",
     "build:icons": "run-s build:icons:*",
     "optimize": "svgo -f ./src --config=.svgo.yml -o dist/icons",
     "build": "run-p build:icons optimize"
